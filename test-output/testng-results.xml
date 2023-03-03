@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-03-02T18:06:30 CET" name="NopCommerceV1" finished-at="2023-03-02T18:06:45 CET" duration-ms="14785">
+    <groups>
+    </groups>
+    <test started-at="2023-03-02T18:06:30 CET" name="ECommerceTest" finished-at="2023-03-02T18:06:45 CET" duration-ms="14785">
+      <class name="testCases.RegisterTest">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.RegisterTest@1cf6d1be]" started-at="2023-03-02T18:06:30 CET" name="setup" finished-at="2023-03-02T18:06:35 CET" duration-ms="4197" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="register(java.lang.String,java.lang.String)[pri:0, instance:testCases.RegisterTest@1cf6d1be]" started-at="2023-03-02T18:06:35 CET" name="register" data-provider="testdata" finished-at="2023-03-02T18:06:39 CET" duration-ms="3922" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[testemail@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[testemail]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- register -->
+        <test-method signature="register(java.lang.String,java.lang.String)[pri:0, instance:testCases.RegisterTest@1cf6d1be]" started-at="2023-03-02T18:06:39 CET" name="register" data-provider="testdata" finished-at="2023-03-02T18:06:45 CET" duration-ms="5351" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[testemail@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[testemail]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- register -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.RegisterTest@1cf6d1be]" started-at="2023-03-02T18:06:45 CET" name="tearDown" finished-at="2023-03-02T18:06:45 CET" duration-ms="603" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.RegisterTest -->
+    </test> <!-- ECommerceTest -->
+  </suite> <!-- NopCommerceV1 -->
+</testng-results>

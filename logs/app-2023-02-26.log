@@ -1,0 +1,34 @@
+02:30:10.768 INFO  testCases.BaseClass -Clicked on Register
+02:30:10.839 INFO  testCases.BaseClass -Clicked on Male
+02:30:10.945 INFO  testCases.BaseClass -Enter first name
+02:30:11.045 INFO  testCases.BaseClass -Enter first name
+02:30:11.138 INFO  testCases.BaseClass -Selected day
+02:30:11.216 INFO  testCases.BaseClass -Selected month
+02:30:11.298 INFO  testCases.BaseClass -Selected year
+02:30:11.404 INFO  testCases.BaseClass -Entered email
+02:30:11.514 INFO  testCases.BaseClass -Entered password
+02:30:11.614 INFO  testCases.BaseClass -Confirmed password
+02:30:12.265 INFO  testCases.BaseClass -Clicked register
+02:30:12.315 INFO  testCases.BaseClass -Test passed
+02:30:47.201 INFO  testCases.BaseClass -Clicked on Register
+02:30:47.266 INFO  testCases.BaseClass -Clicked on Male
+02:30:47.369 INFO  testCases.BaseClass -Enter first name
+02:30:47.473 INFO  testCases.BaseClass -Enter first name
+02:30:47.574 INFO  testCases.BaseClass -Selected day
+02:30:47.663 INFO  testCases.BaseClass -Selected month
+02:30:47.746 INFO  testCases.BaseClass -Selected year
+02:30:47.850 INFO  testCases.BaseClass -Entered email
+02:30:47.957 INFO  testCases.BaseClass -Entered password
+02:30:48.057 INFO  testCases.BaseClass -Confirmed password
+02:30:48.477 INFO  testCases.BaseClass -Clicked register
+02:30:52.431 INFO  testCases.BaseClass -Clicked on Register
+02:30:52.492 INFO  testCases.BaseClass -Clicked on Male
+02:30:52.580 INFO  testCases.BaseClass -Enter first name
+02:30:52.673 INFO  testCases.BaseClass -Enter first name
+02:30:52.749 INFO  testCases.BaseClass -Selected day
+02:30:52.818 INFO  testCases.BaseClass -Selected month
+02:30:52.887 INFO  testCases.BaseClass -Selected year
+02:30:53.005 INFO  testCases.BaseClass -Entered email
+02:30:53.111 INFO  testCases.BaseClass -Entered password
+02:30:53.201 INFO  testCases.BaseClass -Confirmed password
+02:30:53.581 INFO  testCases.BaseClass -Clicked register

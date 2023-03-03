@@ -1,0 +1,167 @@
+12:45:07.470 INFO  testCases.BaseClass -Clicked on Register
+12:45:07.531 INFO  testCases.BaseClass -Clicked on Male
+12:45:07.637 INFO  testCases.BaseClass -Enter first name
+12:45:07.745 INFO  testCases.BaseClass -Enter first name
+12:45:07.847 INFO  testCases.BaseClass -Selected day
+12:45:07.935 INFO  testCases.BaseClass -Selected month
+12:45:08.020 INFO  testCases.BaseClass -Selected year
+12:45:08.127 INFO  testCases.BaseClass -Entered email
+12:45:08.237 INFO  testCases.BaseClass -Entered password
+12:45:08.343 INFO  testCases.BaseClass -Confirmed password
+12:45:08.720 INFO  testCases.BaseClass -Clicked register
+12:46:33.069 INFO  testCases.BaseClass -Clicked on Register
+12:46:33.126 INFO  testCases.BaseClass -Clicked on Male
+12:46:33.224 INFO  testCases.BaseClass -Enter first name
+12:46:33.320 INFO  testCases.BaseClass -Enter first name
+12:46:33.414 INFO  testCases.BaseClass -Selected day
+12:46:33.507 INFO  testCases.BaseClass -Selected month
+12:46:33.597 INFO  testCases.BaseClass -Selected year
+12:46:33.712 INFO  testCases.BaseClass -Entered email
+12:46:33.826 INFO  testCases.BaseClass -Entered password
+12:46:33.930 INFO  testCases.BaseClass -Confirmed password
+12:46:34.295 INFO  testCases.BaseClass -Clicked register
+12:47:46.370 INFO  testCases.BaseClass -Clicked on Register
+12:47:46.425 INFO  testCases.BaseClass -Clicked on Male
+12:47:46.521 INFO  testCases.BaseClass -Enter first name
+12:47:46.621 INFO  testCases.BaseClass -Enter first name
+12:47:46.718 INFO  testCases.BaseClass -Selected day
+12:47:46.812 INFO  testCases.BaseClass -Selected month
+12:47:46.901 INFO  testCases.BaseClass -Selected year
+12:47:47.012 INFO  testCases.BaseClass -Entered email
+12:47:47.127 INFO  testCases.BaseClass -Entered password
+12:47:47.236 INFO  testCases.BaseClass -Confirmed password
+12:47:47.637 INFO  testCases.BaseClass -Clicked register
+13:02:17.473 INFO  testCases.BaseClass -Clicked on Register
+13:02:17.535 INFO  testCases.BaseClass -Clicked on Male
+13:02:17.635 INFO  testCases.BaseClass -Enter first name
+13:02:17.740 INFO  testCases.BaseClass -Enter first name
+13:02:17.837 INFO  testCases.BaseClass -Selected day
+13:02:17.919 INFO  testCases.BaseClass -Selected month
+13:02:18.001 INFO  testCases.BaseClass -Selected year
+13:02:18.114 INFO  testCases.BaseClass -Entered email
+13:02:18.218 INFO  testCases.BaseClass -Entered password
+13:02:18.325 INFO  testCases.BaseClass -Confirmed password
+13:02:18.712 INFO  testCases.BaseClass -Clicked register
+13:37:03.964 INFO  testCases.BaseClass -Clicked on Register
+13:37:04.029 INFO  testCases.BaseClass -Clicked on Male
+13:37:04.132 INFO  testCases.BaseClass -Enter first name
+13:37:04.233 INFO  testCases.BaseClass -Enter first name
+13:37:04.331 INFO  testCases.BaseClass -Selected day
+13:37:04.417 INFO  testCases.BaseClass -Selected month
+13:37:04.501 INFO  testCases.BaseClass -Selected year
+13:37:04.609 INFO  testCases.BaseClass -Entered email
+13:37:04.716 INFO  testCases.BaseClass -Entered password
+13:37:04.822 INFO  testCases.BaseClass -Confirmed password
+13:37:05.205 INFO  testCases.BaseClass -Clicked register
+13:37:49.012 INFO  testCases.BaseClass -Clicked on Register
+13:37:49.078 INFO  testCases.BaseClass -Clicked on Male
+13:37:49.185 INFO  testCases.BaseClass -Enter first name
+13:37:49.291 INFO  testCases.BaseClass -Enter first name
+13:37:49.392 INFO  testCases.BaseClass -Selected day
+13:37:49.466 INFO  testCases.BaseClass -Selected month
+13:37:49.543 INFO  testCases.BaseClass -Selected year
+13:37:49.642 INFO  testCases.BaseClass -Entered email
+13:37:49.745 INFO  testCases.BaseClass -Entered password
+13:37:49.849 INFO  testCases.BaseClass -Confirmed password
+13:37:50.214 INFO  testCases.BaseClass -Clicked register
+13:38:31.673 INFO  testCases.BaseClass -Clicked on Register
+13:38:31.728 INFO  testCases.BaseClass -Clicked on Male
+13:38:31.829 INFO  testCases.BaseClass -Enter first name
+13:38:31.930 INFO  testCases.BaseClass -Enter first name
+13:38:32.027 INFO  testCases.BaseClass -Selected day
+13:38:32.114 INFO  testCases.BaseClass -Selected month
+13:38:32.195 INFO  testCases.BaseClass -Selected year
+13:38:32.295 INFO  testCases.BaseClass -Entered email
+13:38:32.403 INFO  testCases.BaseClass -Entered password
+13:38:32.503 INFO  testCases.BaseClass -Confirmed password
+13:38:32.874 INFO  testCases.BaseClass -Clicked register
+13:49:13.837 INFO  testCases.BaseClass -Clicked on Register
+13:49:13.895 INFO  testCases.BaseClass -Clicked on Male
+13:49:13.998 INFO  testCases.BaseClass -Enter first name
+13:49:14.090 INFO  testCases.BaseClass -Enter first name
+13:49:14.182 INFO  testCases.BaseClass -Selected day
+13:49:14.262 INFO  testCases.BaseClass -Selected month
+13:49:14.344 INFO  testCases.BaseClass -Selected year
+13:49:14.451 INFO  testCases.BaseClass -Entered email
+13:49:14.560 INFO  testCases.BaseClass -Entered password
+13:49:14.662 INFO  testCases.BaseClass -Confirmed password
+13:49:15.035 INFO  testCases.BaseClass -Clicked register
+13:50:22.309 INFO  testCases.BaseClass -Clicked on Register
+13:50:22.370 INFO  testCases.BaseClass -Clicked on Male
+13:50:22.471 INFO  testCases.BaseClass -Enter first name
+13:50:22.575 INFO  testCases.BaseClass -Enter first name
+13:50:22.670 INFO  testCases.BaseClass -Selected day
+13:50:22.758 INFO  testCases.BaseClass -Selected month
+13:50:22.846 INFO  testCases.BaseClass -Selected year
+13:50:22.952 INFO  testCases.BaseClass -Entered email
+13:50:23.063 INFO  testCases.BaseClass -Entered password
+13:50:23.165 INFO  testCases.BaseClass -Confirmed password
+13:50:23.532 INFO  testCases.BaseClass -Clicked register
+13:51:45.789 INFO  testCases.BaseClass -Clicked on Register
+13:51:45.849 INFO  testCases.BaseClass -Clicked on Male
+13:51:45.949 INFO  testCases.BaseClass -Enter first name
+13:51:46.055 INFO  testCases.BaseClass -Enter first name
+13:51:46.155 INFO  testCases.BaseClass -Selected day
+13:51:46.240 INFO  testCases.BaseClass -Selected month
+13:51:46.324 INFO  testCases.BaseClass -Selected year
+13:51:46.433 INFO  testCases.BaseClass -Entered email
+13:51:46.540 INFO  testCases.BaseClass -Entered password
+13:51:46.644 INFO  testCases.BaseClass -Confirmed password
+13:51:47.298 INFO  testCases.BaseClass -Clicked register
+13:53:25.235 INFO  testCases.BaseClass -Clicked on Register
+13:53:25.290 INFO  testCases.BaseClass -Clicked on Male
+13:53:25.391 INFO  testCases.BaseClass -Enter first name
+13:53:25.493 INFO  testCases.BaseClass -Enter first name
+13:53:25.592 INFO  testCases.BaseClass -Selected day
+13:53:25.672 INFO  testCases.BaseClass -Selected month
+13:53:25.754 INFO  testCases.BaseClass -Selected year
+13:53:25.866 INFO  testCases.BaseClass -Entered email
+13:53:25.976 INFO  testCases.BaseClass -Entered password
+13:53:26.080 INFO  testCases.BaseClass -Confirmed password
+13:53:26.454 INFO  testCases.BaseClass -Clicked register
+14:14:12.929 INFO  testCases.BaseClass -Clicked on Register
+14:14:12.991 INFO  testCases.BaseClass -Clicked on Male
+14:14:13.092 INFO  testCases.BaseClass -Enter first name
+14:14:13.194 INFO  testCases.BaseClass -Enter first name
+14:14:13.298 INFO  testCases.BaseClass -Selected day
+14:14:13.388 INFO  testCases.BaseClass -Selected month
+14:14:13.479 INFO  testCases.BaseClass -Selected year
+14:14:13.590 INFO  testCases.BaseClass -Entered email
+14:14:13.702 INFO  testCases.BaseClass -Entered password
+14:14:13.798 INFO  testCases.BaseClass -Confirmed password
+14:14:14.156 INFO  testCases.BaseClass -Clicked register
+14:15:26.120 INFO  testCases.BaseClass -Clicked on Register
+14:15:26.179 INFO  testCases.BaseClass -Clicked on Male
+14:15:26.279 INFO  testCases.BaseClass -Enter first name
+14:15:26.383 INFO  testCases.BaseClass -Enter first name
+14:15:26.479 INFO  testCases.BaseClass -Selected day
+14:15:26.565 INFO  testCases.BaseClass -Selected month
+14:15:26.648 INFO  testCases.BaseClass -Selected year
+14:15:26.756 INFO  testCases.BaseClass -Entered email
+14:15:26.864 INFO  testCases.BaseClass -Entered password
+14:15:26.966 INFO  testCases.BaseClass -Confirmed password
+14:15:27.324 INFO  testCases.BaseClass -Clicked register
+14:15:30.352 INFO  testCases.BaseClass -Test passed
+14:21:37.689 INFO  testCases.BaseClass -Clicked on Register
+14:21:37.747 INFO  testCases.BaseClass -Clicked on Male
+14:21:37.851 INFO  testCases.BaseClass -Enter first name
+14:21:37.958 INFO  testCases.BaseClass -Enter first name
+14:21:38.053 INFO  testCases.BaseClass -Selected day
+14:21:38.134 INFO  testCases.BaseClass -Selected month
+14:21:38.224 INFO  testCases.BaseClass -Selected year
+14:21:38.337 INFO  testCases.BaseClass -Entered email
+14:21:38.446 INFO  testCases.BaseClass -Entered password
+14:21:38.545 INFO  testCases.BaseClass -Confirmed password
+14:21:38.905 INFO  testCases.BaseClass -Clicked register
+14:21:42.096 INFO  testCases.BaseClass -Test passed
+14:23:03.650 INFO  testCases.BaseClass -Clicked on Register
+14:23:03.706 INFO  testCases.BaseClass -Clicked on Male
+14:23:03.808 INFO  testCases.BaseClass -Enter first name
+14:23:03.909 INFO  testCases.BaseClass -Enter first name
+14:23:04.003 INFO  testCases.BaseClass -Selected day
+14:23:04.089 INFO  testCases.BaseClass -Selected month
+14:23:04.172 INFO  testCases.BaseClass -Selected year
+14:23:04.274 INFO  testCases.BaseClass -Entered email
+14:23:04.373 INFO  testCases.BaseClass -Entered password
+14:23:04.472 INFO  testCases.BaseClass -Confirmed password
+14:23:04.852 INFO  testCases.BaseClass -Clicked register
