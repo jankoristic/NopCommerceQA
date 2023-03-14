@@ -50,11 +50,11 @@ public class BaseClass {
 
 		
 		if(br.equals("chrome")) {
+			System.setProperty("webdriver.chrome.driver", read.getChromePath());
+			WebDriverManager.chromedriver().setup();
 			options = new ChromeOptions();
 			options.addArguments("--remote-allow-origins=*");
-			WebDriverManager.chromedriver().setup();
-			System.setProperty("webdriver.chrome.driver", read.getChromePath());
-			this.driver = new ChromeDriver();
+			this.driver = new ChromeDriver(options);
 		}
 		
 		if(br.equals("firefox")) {
