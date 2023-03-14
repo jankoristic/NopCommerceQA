@@ -8,6 +8,7 @@ import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
@@ -32,7 +33,8 @@ public class BaseClass {
 	public ExtentSparkReporter spark;
 	public ExtentTest test;
 	public File file;
-	SoftAssert softassert;
+	public SoftAssert softassert;
+	public ChromeOptions options;
 	
 	@Parameters("browser")
 	@BeforeClass
@@ -48,6 +50,8 @@ public class BaseClass {
 
 		
 		if(br.equals("chrome")) {
+			options = new ChromeOptions();
+			options.addArguments("--remote-allow-origins=*");
 			WebDriverManager.chromedriver().setup();
 			System.setProperty("webdriver.chrome.driver", read.getChromePath());
 			this.driver = new ChromeDriver();

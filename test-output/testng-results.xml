@@ -2,12 +2,12 @@
 <testng-results ignored="0" total="2" passed="0" failed="0" skipped="2">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-03-14T17:36:44 CET" name="NopCommerceV1" finished-at="2023-03-14T17:36:47 CET" duration-ms="3596">
+  <suite started-at="2023-03-14T17:53:58 CET" name="NopCommerceV1" finished-at="2023-03-14T17:54:02 CET" duration-ms="3348">
     <groups>
     </groups>
-    <test started-at="2023-03-14T17:36:44 CET" name="ECommerceTest" finished-at="2023-03-14T17:36:47 CET" duration-ms="3596">
+    <test started-at="2023-03-14T17:53:58 CET" name="ECommerceTest" finished-at="2023-03-14T17:54:02 CET" duration-ms="3348">
       <class name="testCases.RegisterTest">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.RegisterTest@1cf6d1be]" started-at="2023-03-14T17:36:44 CET" name="setup" finished-at="2023-03-14T17:36:47 CET" duration-ms="2871" status="FAIL">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.RegisterTest@1cf6d1be]" started-at="2023-03-14T17:53:58 CET" name="setup" finished-at="2023-03-14T17:54:01 CET" duration-ms="2630" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -17,13 +17,13 @@
           </params>
           <exception class="org.openqa.selenium.remote.http.ConnectionFailedException">
             <message>
-              <![CDATA[Unable to establish websocket connection to http://localhost:58824/devtools/browser/c99d0b80-80f8-461b-94f1-2b1f91337d12
+              <![CDATA[Unable to establish websocket connection to http://localhost:60009/devtools/browser/ce219bb5-d5f6-4edc-9ca6-be7099df10ee
 Build info: version: '4.4.0', revision: 'e5c75ed026a'
 System info: host: 'DESKTOP-MQ5QUGD', ip: '192.168.0.23', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.2'
 Driver info: driver.version: ChromeDriver]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.remote.http.ConnectionFailedException: Unable to establish websocket connection to http://localhost:58824/devtools/browser/c99d0b80-80f8-461b-94f1-2b1f91337d12
+              <![CDATA[org.openqa.selenium.remote.http.ConnectionFailedException: Unable to establish websocket connection to http://localhost:60009/devtools/browser/ce219bb5-d5f6-4edc-9ca6-be7099df10ee
 Build info: version: '4.4.0', revision: 'e5c75ed026a'
 System info: host: 'DESKTOP-MQ5QUGD', ip: '192.168.0.23', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.2'
 Driver info: driver.version: ChromeDriver
@@ -36,7 +36,7 @@ at java.base/java.util.Optional.map(Optional.java:260)
 at org.openqa.selenium.chromium.ChromiumDriver.<init>(ChromiumDriver.java:114)
 at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:81)
 at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:49)
-at testCases.BaseClass.setup(BaseClass.java:53)
+at testCases.BaseClass.setup(BaseClass.java:57)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -69,7 +69,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="register(java.lang.String,java.lang.String)[pri:0, instance:testCases.RegisterTest@1cf6d1be]" started-at="2023-03-14T17:36:47 CET" name="register" data-provider="testdata" finished-at="2023-03-14T17:36:47 CET" duration-ms="0" status="SKIP">
+        <test-method signature="register(java.lang.String,java.lang.String)[pri:0, instance:testCases.RegisterTest@1cf6d1be]" started-at="2023-03-14T17:54:02 CET" name="register" data-provider="testdata" finished-at="2023-03-14T17:54:02 CET" duration-ms="0" status="SKIP">
           <params>
             <param index="0">
               <value>
@@ -84,13 +84,13 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           </params>
           <exception class="org.openqa.selenium.remote.http.ConnectionFailedException">
             <message>
-              <![CDATA[Unable to establish websocket connection to http://localhost:58824/devtools/browser/c99d0b80-80f8-461b-94f1-2b1f91337d12
+              <![CDATA[Unable to establish websocket connection to http://localhost:60009/devtools/browser/ce219bb5-d5f6-4edc-9ca6-be7099df10ee
 Build info: version: '4.4.0', revision: 'e5c75ed026a'
 System info: host: 'DESKTOP-MQ5QUGD', ip: '192.168.0.23', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.2'
 Driver info: driver.version: ChromeDriver]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.remote.http.ConnectionFailedException: Unable to establish websocket connection to http://localhost:58824/devtools/browser/c99d0b80-80f8-461b-94f1-2b1f91337d12
+              <![CDATA[org.openqa.selenium.remote.http.ConnectionFailedException: Unable to establish websocket connection to http://localhost:60009/devtools/browser/ce219bb5-d5f6-4edc-9ca6-be7099df10ee
 Build info: version: '4.4.0', revision: 'e5c75ed026a'
 System info: host: 'DESKTOP-MQ5QUGD', ip: '192.168.0.23', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.2'
 Driver info: driver.version: ChromeDriver
@@ -103,7 +103,7 @@ at java.base/java.util.Optional.map(Optional.java:260)
 at org.openqa.selenium.chromium.ChromiumDriver.<init>(ChromiumDriver.java:114)
 at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:81)
 at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:49)
-at testCases.BaseClass.setup(BaseClass.java:53)
+at testCases.BaseClass.setup(BaseClass.java:57)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -136,7 +136,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- register -->
-        <test-method signature="register(java.lang.String,java.lang.String)[pri:0, instance:testCases.RegisterTest@1cf6d1be]" started-at="2023-03-14T17:36:47 CET" name="register" data-provider="testdata" finished-at="2023-03-14T17:36:47 CET" duration-ms="0" status="SKIP">
+        <test-method signature="register(java.lang.String,java.lang.String)[pri:0, instance:testCases.RegisterTest@1cf6d1be]" started-at="2023-03-14T17:54:02 CET" name="register" data-provider="testdata" finished-at="2023-03-14T17:54:02 CET" duration-ms="0" status="SKIP">
           <params>
             <param index="0">
               <value>
@@ -151,13 +151,13 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           </params>
           <exception class="org.openqa.selenium.remote.http.ConnectionFailedException">
             <message>
-              <![CDATA[Unable to establish websocket connection to http://localhost:58824/devtools/browser/c99d0b80-80f8-461b-94f1-2b1f91337d12
+              <![CDATA[Unable to establish websocket connection to http://localhost:60009/devtools/browser/ce219bb5-d5f6-4edc-9ca6-be7099df10ee
 Build info: version: '4.4.0', revision: 'e5c75ed026a'
 System info: host: 'DESKTOP-MQ5QUGD', ip: '192.168.0.23', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.2'
 Driver info: driver.version: ChromeDriver]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.remote.http.ConnectionFailedException: Unable to establish websocket connection to http://localhost:58824/devtools/browser/c99d0b80-80f8-461b-94f1-2b1f91337d12
+              <![CDATA[org.openqa.selenium.remote.http.ConnectionFailedException: Unable to establish websocket connection to http://localhost:60009/devtools/browser/ce219bb5-d5f6-4edc-9ca6-be7099df10ee
 Build info: version: '4.4.0', revision: 'e5c75ed026a'
 System info: host: 'DESKTOP-MQ5QUGD', ip: '192.168.0.23', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.2'
 Driver info: driver.version: ChromeDriver
@@ -170,7 +170,7 @@ at java.base/java.util.Optional.map(Optional.java:260)
 at org.openqa.selenium.chromium.ChromiumDriver.<init>(ChromiumDriver.java:114)
 at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:81)
 at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:49)
-at testCases.BaseClass.setup(BaseClass.java:53)
+at testCases.BaseClass.setup(BaseClass.java:57)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -203,7 +203,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- register -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.RegisterTest@1cf6d1be]" started-at="2023-03-14T17:36:47 CET" name="tearDown" finished-at="2023-03-14T17:36:47 CET" duration-ms="0" status="SKIP">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.RegisterTest@1cf6d1be]" started-at="2023-03-14T17:54:02 CET" name="tearDown" finished-at="2023-03-14T17:54:02 CET" duration-ms="0" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
