@@ -3,6 +3,8 @@ package testCases;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
+import com.aventstack.extentreports.MediaEntityBuilder;
+
 import pageObjects.HomePage;
 import pageObjects.LoginPage;
 
@@ -22,13 +24,21 @@ public class LoginTest extends BaseClass {
 	  lp.clickLogin();
 	  log.info("Clicked Login");
 	  
-	  if(driver.getTitle().equals("nopCommerce demo store")) {
-		  Assert.assertTrue(true);
-		  log.info("Test passed");
-	  } else {
-		  Assert.assertFalse(false);
-		  log.error("Test failed");
-	  }
+//	  if(driver.getTitle().equals("nopCommerce demo store")) {
+//		  Assert.assertTrue(true);
+//		  log.info("Test passed");
+//	  } else {
+//		  Assert.assertFalse(false);
+//		  log.error("Test failed");
+//	  }
+	  
+	  try {
+			softassert.assertEquals(driver.getTitle(), "nopCommerce demo store");
+			log.info("Test passed");
+			test.pass("Register test passed");
+		} catch (Exception e){
+			test.fail(e, MediaEntityBuilder.createScreenCaptureFromPath(screenshot.captureScreenshot(driver, "screenshot.png")).build());
+		}
 	  
   }
 }

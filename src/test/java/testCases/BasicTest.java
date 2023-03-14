@@ -13,7 +13,7 @@ public class BasicTest extends BaseClass{
 	@Test
 	public void basic() throws IOException {
 		
-//		test = extent.createTest("Basic test");
+		test = extent.createTest("Basic test");
 		
 		driver.get(read.getURL());
 		HomePage hp = new HomePage(driver);
