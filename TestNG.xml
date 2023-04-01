@@ -2,11 +2,21 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
 
 <suite name="NopCommerceV1">
-	<test name="ECommerceTest">
-	<parameter name="browser" value="chrome" />
-	<classes>
-		<class name="testCases.RegisterTest" />
-	</classes>
+	<test name="Test1">
+		<parameter name="browser" value="chrome" />
+		<parameter name="author" value="Janko" />
+		<classes>
+			<class name="testCases.RegisterTest">
+				<methods>
+					<include name="register" />
+				</methods>
+			</class>
+			<class name="testCases.LoginTest">
+				<methods>
+					<include name="login" />
+				</methods>
+			</class>
+		</classes>
 	</test>
 </suite>
 

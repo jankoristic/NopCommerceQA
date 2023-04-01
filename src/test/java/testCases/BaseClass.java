@@ -6,12 +6,19 @@ import java.time.Duration;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
+import org.openqa.selenium.Capabilities;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.firefox.FirefoxDriver;
-import org.testng.annotations.AfterClass;
+import org.openqa.selenium.remote.RemoteWebDriver;
+import org.testng.ITestContext;
+import org.testng.annotations.AfterSuite;
+import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeClass;
+import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.BeforeSuite;
+import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Parameters;
 import org.testng.asserts.SoftAssert;
 
@@ -25,53 +32,68 @@ import utilities.Screenshot;
 
 public class BaseClass {
 
-	public WebDriver driver;
-	public ReadConfig read = new ReadConfig();
-	public Screenshot screenshot = new Screenshot();
+	public static WebDriver driver;
+	public static ReadConfig read = new ReadConfig();
+	public static Screenshot screenshot = new Screenshot();
+	public static String screenshotSubFolderName;
 	public static Logger log;
 	public ExtentReports extent;
-	public ExtentSparkReporter spark;
-	public ExtentTest test;
+	public static ExtentTest test;
 	public File file;
-	public SoftAssert softassert;
+	public static SoftAssert softassert;
 	public ChromeOptions options;
 	
-	@Parameters("browser")
-	@BeforeClass
-	public void setup(String br) throws IOException {
+	@BeforeSuite
+	public void initialiseExtentreports() throws IOException {
+		file = new File("report.html");
+		ExtentSparkReporter spark = new ExtentSparkReporter(file);
+		spark.loadJSONConfig(new File("./src/test/resources/extent-reports-config.json"));
+		extent = new ExtentReports();
+		extent.attachReporter(spark);
+		
 		log = LogManager.getLogger(BaseClass.class.getName());
 		softassert = new SoftAssert();
-		
-		extent = new ExtentReports();
-		file = new File("report.html");
-		spark = new ExtentSparkReporter(file);
-		spark.loadJSONConfig(new File("./src/test/resources/extent-reports-config.json"));
-		extent.attachReporter(spark);
-
-		
+	}
+	
+	@Parameters("browser")
+	@BeforeTest
+	public void setup(ITestContext context, String br) throws Exception {
 		if(br.equals("chrome")) {
 			System.setProperty("webdriver.chrome.driver", read.getChromePath());
 			WebDriverManager.chromedriver().setup();
 			options = new ChromeOptions();
 			options.addArguments("--remote-allow-origins=*");
-			this.driver = new ChromeDriver(options);
+			driver = new ChromeDriver(options);
 		}
 		
 		if(br.equals("firefox")) {
 			WebDriverManager.firefoxdriver().setup();
 			System.setProperty("webdriver.gecko.driver", read.getFirefoxPath());
-			this.driver = new FirefoxDriver();
+			driver = new FirefoxDriver();
 		}
 		
-		this.driver.manage().window().maximize();
-		this.driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(3));
-		this.driver.manage().timeouts().pageLoadTimeout(Duration.ofSeconds(3));
+		driver.manage().window().maximize();
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(3));
+		driver.manage().timeouts().pageLoadTimeout(Duration.ofSeconds(3));
+		
+		Capabilities capabilities = ((RemoteWebDriver) driver).getCapabilities();
+		String device = capabilities.getBrowserName() + " " + capabilities.getBrowserVersion().substring(0, capabilities.getBrowserVersion().indexOf("."));
+		String author = context.getCurrentXmlTest().getParameter("author");
+		
+		test = extent.createTest(context.getName());
+		test.assignAuthor(author);
+		test.assignDevice(device);
+		
 	}
 	
-	@AfterClass
+	@AfterTest
 	public void tearDown() {
-		extent.flush();
 		driver.quit();
 		softassert.assertAll();
+	}
+	
+	@AfterSuite
+	public void generateExtentReports() {
+		extent.flush();
 	}
 }

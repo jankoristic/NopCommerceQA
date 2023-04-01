@@ -1,11 +1,11 @@
 package testCases;
 
+import static org.testng.Assert.*;
+
 import org.testng.Assert;
 import org.testng.annotations.Test;
-import org.testng.asserts.SoftAssert;
 
 import com.aventstack.extentreports.MediaEntityBuilder;
-import com.aventstack.extentreports.Status;
 
 import pageObjects.HomePage;
 import pageObjects.RegisterPage;
@@ -15,8 +15,6 @@ public class RegisterTest extends BaseClass {
   
 	@Test(dataProviderClass=ReadXLSdata.class, dataProvider="testdata")
 	public void register(String email, String password) {
-		Throwable t = new RuntimeException("A runtime exception");
-		test = extent.createTest("Register test");
 		
 		driver.get(read.getURL());
 		HomePage hp = new HomePage(driver);
@@ -62,6 +60,6 @@ public class RegisterTest extends BaseClass {
 		} catch (Exception e){
 			test.fail(e, MediaEntityBuilder.createScreenCaptureFromPath(screenshot.captureScreenshot(driver, "screenshot.png")).build());
 		}
-		
+
   }
 }

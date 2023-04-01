@@ -37,6 +37,8 @@ public class ReadXLSdata {
 			}
 		}
 		
+		wb.close();
+		fis.close();
 		return testData;
 		
 	}
