@@ -13,6 +13,8 @@ import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.remote.RemoteWebDriver;
 import org.testng.ITestContext;
+import org.testng.ITestResult;
+import org.testng.annotations.AfterMethod;
 import org.testng.annotations.AfterSuite;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeClass;
@@ -24,6 +26,7 @@ import org.testng.asserts.SoftAssert;
 
 import com.aventstack.extentreports.ExtentReports;
 import com.aventstack.extentreports.ExtentTest;
+import com.aventstack.extentreports.MediaEntityBuilder;
 import com.aventstack.extentreports.reporter.ExtentSparkReporter;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
@@ -84,6 +87,17 @@ public class BaseClass {
 		test.assignAuthor(author);
 		test.assignDevice(device);
 		
+	}
+	
+	@AfterMethod
+	public void check(ITestResult result) {
+		if(result.getStatus() == ITestResult.FAILURE) {
+			test.fail(result.getThrowable(), MediaEntityBuilder.createScreenCaptureFromPath(screenshot.captureScreenshot(driver, "screenshot.png")).build());
+			
+		} else if (result.getStatus() == ITestResult.SUCCESS){
+			log.info(result.getMethod().getMethodName() + " test passed");
+			test.pass(result.getMethod().getMethodName() + " test passed");
+		}
 	}
 	
 	@AfterTest

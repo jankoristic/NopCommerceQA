@@ -20,25 +20,11 @@ public class LoginTest extends BaseClass {
 		LoginPage lp = new LoginPage(driver);
 		
 		hp.clickLogin();
-		log.info("Clicked on Log in");
-		
 		lp.enterEmail(email);
-		log.info("Entered email");
-		
 		lp.enterPassword(password);
-		log.info("Entered password");
-		
 		lp.clickLogin();
-		log.info("Clicked Login");
-	  
-	  
-		try {
-			softassert.assertEquals(hp.logout.isDisplayed(), true);
-			log.info("Test passed");
-			test.pass("Login test passed");
-		} catch (Exception e){
-			test.fail(e, MediaEntityBuilder.createScreenCaptureFromPath(screenshot.captureScreenshot(driver, "screenshot.png")).build());
-		}
+		
+		softassert.assertEquals(hp.logout.isDisplayed(), true);
 	  
 	}
 }
