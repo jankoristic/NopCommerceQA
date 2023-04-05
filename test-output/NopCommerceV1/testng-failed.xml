@@ -7,18 +7,24 @@
     <classes>
       <class name="testCases.RegisterTest">
         <methods>
-          <include name="check"/>
           <include name="setup"/>
+          <include name="check"/>
+          <include name="register" invocation-numbers="1"/>
           <include name="initialiseExtentreports"/>
-          <include name="register" invocation-numbers="0 1"/>
           <include name="tearDown"/>
           <include name="generateExtentReports"/>
         </methods>
       </class> <!-- testCases.RegisterTest -->
+    </classes>
+  </test> <!-- Test1(failed) -->
+  <test thread-count="5" name="Test2(failed)">
+    <parameter name="author" value="Janko"/>
+    <parameter name="browser" value="chrome"/>
+    <classes>
       <class name="testCases.LoginTest">
         <methods>
-          <include name="setup"/>
           <include name="check"/>
+          <include name="setup"/>
           <include name="initialiseExtentreports"/>
           <include name="tearDown"/>
           <include name="login" invocation-numbers="0"/>
@@ -26,5 +32,5 @@
         </methods>
       </class> <!-- testCases.LoginTest -->
     </classes>
-  </test> <!-- Test1(failed) -->
+  </test> <!-- Test2(failed) -->
 </suite> <!-- Failed suite [NopCommerceV1] -->

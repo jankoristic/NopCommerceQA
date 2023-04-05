@@ -40,11 +40,11 @@ public class BaseClass {
 	public static Screenshot screenshot = new Screenshot();
 	public static String screenshotSubFolderName;
 	public static Logger log;
-	public ExtentReports extent;
+	public static ExtentReports extent;
 	public static ExtentTest test;
-	public File file;
+	public static File file;
 	public static SoftAssert softassert;
-	public ChromeOptions options;
+	public static ChromeOptions options;
 	
 	@BeforeSuite
 	public void initialiseExtentreports() throws IOException {

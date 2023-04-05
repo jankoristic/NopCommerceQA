@@ -11,6 +11,12 @@
 					<include name="register" />
 				</methods>
 			</class>
+		</classes>
+	</test>
+	<test name="Test2">
+		<parameter name="browser" value="chrome" />
+		<parameter name="author" value="Janko" />
+		<classes>
 			<class name="testCases.LoginTest">
 				<methods>
 					<include name="login" />
