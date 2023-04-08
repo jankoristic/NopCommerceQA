@@ -46,7 +46,6 @@
 			</class>
 		</classes>
 	</test>
-	</test>
 	<test name="TC_RF_006">
 		<parameter name="browser" value="chrome" />
 		<parameter name="author" value="Janko" />
@@ -57,7 +56,6 @@
 				</methods>
 			</class>
 		</classes>
-	</test>
 	</test>
 	<test name="TC_RF_007">
 		<parameter name="browser" value="chrome" />
@@ -70,7 +68,6 @@
 			</class>
 		</classes>
 	</test>
-	</test>
 	<test name="TC_RF_008">
 		<parameter name="browser" value="chrome" />
 		<parameter name="author" value="Janko" />
@@ -82,7 +79,6 @@
 			</class>
 		</classes>
 	</test>
-	</test>
 	<test name="TC_RF_009">
 		<parameter name="browser" value="chrome" />
 		<parameter name="author" value="Janko" />
@@ -93,7 +89,6 @@
 				</methods>
 			</class>
 		</classes>
-	</test>
 	</test>
 	<test name="TC_RF_010">
 		<parameter name="browser" value="chrome" />
