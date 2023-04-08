@@ -57,6 +57,24 @@ public class RegisterPage {
 	@FindBy(css="div[class=result]")
 	public WebElement confirmResult;
 	
+	@FindBy(id="FirstName-error")
+	public WebElement firstNameError;
+	
+	@FindBy(id="LastName-error")
+	public WebElement lastNameError;
+	
+	@FindBy(id="Email-error")
+	public WebElement emailError;
+	
+	@FindBy(id="Password-error")
+	public WebElement passwordError;
+	
+	@FindBy(id="ConfirmPassword-error")
+	public WebElement confirmPasswordError;
+	
+	@FindBy(css="div[class='message-error validation-summary-errors']")
+	public WebElement messageError;
+	
 	public void clickMale() {
 		male.click();
 	}

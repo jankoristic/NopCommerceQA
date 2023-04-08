@@ -2,27 +2,108 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
 
 <suite name="NopCommerceV1">
-	<test name="Test1">
+	<test name="TC_RF_001">
 		<parameter name="browser" value="chrome" />
 		<parameter name="author" value="Janko" />
 		<classes>
 			<class name="testCases.RegisterTest">
 				<methods>
-					<include name="register" />
+					<include name="TC_RF_001" />
 				</methods>
 			</class>
 		</classes>
 	</test>
-	<test name="Test2">
+	<test name="TC_RF_002">
 		<parameter name="browser" value="chrome" />
 		<parameter name="author" value="Janko" />
 		<classes>
-			<class name="testCases.LoginTest">
+			<class name="testCases.RegisterTest">
 				<methods>
-					<include name="login" />
+					<include name="TC_RF_002" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="TC_RF_004">
+		<parameter name="browser" value="chrome" />
+		<parameter name="author" value="Janko" />
+		<classes>
+			<class name="testCases.RegisterTest">
+				<methods>
+					<include name="TC_RF_004" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="TC_RF_005">
+		<parameter name="browser" value="chrome" />
+		<parameter name="author" value="Janko" />
+		<classes>
+			<class name="testCases.RegisterTest">
+				<methods>
+					<include name="TC_RF_005" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	</test>
+	<test name="TC_RF_006">
+		<parameter name="browser" value="chrome" />
+		<parameter name="author" value="Janko" />
+		<classes>
+			<class name="testCases.RegisterTest">
+				<methods>
+					<include name="TC_RF_006" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	</test>
+	<test name="TC_RF_007">
+		<parameter name="browser" value="chrome" />
+		<parameter name="author" value="Janko" />
+		<classes>
+			<class name="testCases.RegisterTest">
+				<methods>
+					<include name="TC_RF_007" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	</test>
+	<test name="TC_RF_008">
+		<parameter name="browser" value="chrome" />
+		<parameter name="author" value="Janko" />
+		<classes>
+			<class name="testCases.RegisterTest">
+				<methods>
+					<include name="TC_RF_008" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	</test>
+	<test name="TC_RF_009">
+		<parameter name="browser" value="chrome" />
+		<parameter name="author" value="Janko" />
+		<classes>
+			<class name="testCases.RegisterTest">
+				<methods>
+					<include name="TC_RF_009" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	</test>
+	<test name="TC_RF_010">
+		<parameter name="browser" value="chrome" />
+		<parameter name="author" value="Janko" />
+		<classes>
+			<class name="testCases.RegisterTest">
+				<methods>
+					<include name="TC_RF_010" />
 				</methods>
 			</class>
 		</classes>
 	</test>
 </suite>
-

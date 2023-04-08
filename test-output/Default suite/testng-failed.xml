@@ -5,9 +5,15 @@
     <classes>
       <class name="testCases.RegisterTest">
         <methods>
+          <include name="check"/>
           <include name="setup"/>
-          <include name="register"/>
+          <include name="TC_RF_004"/>
+          <include name="initialiseExtentreports"/>
           <include name="tearDown"/>
+          <include name="TC_RF_005"/>
+          <include name="TC_RF_002"/>
+          <include name="TC_RF_001"/>
+          <include name="generateExtentReports"/>
         </methods>
       </class> <!-- testCases.RegisterTest -->
     </classes>

@@ -1,2 +1,12 @@
-00:59:33.723 INFO  testCases.BaseClass -register test passed
-00:59:46.874 INFO  testCases.BaseClass -login test passed
+14:04:36.435 INFO  testCases.BaseClass -TC_RF_001 test passed
+15:02:48.105 INFO  testCases.BaseClass -TC_RF_001 test passed
+15:09:12.306 INFO  testCases.BaseClass -TC_RF_002 test passed
+15:12:33.540 INFO  testCases.BaseClass -TC_RF_005 test passed
+15:14:05.036 INFO  testCases.BaseClass -TC_RF_004 test passed
+15:14:08.988 INFO  testCases.BaseClass -TC_RF_005 test passed
+15:30:31.757 INFO  testCases.BaseClass -TC_RF_006 test passed
+15:31:16.573 INFO  testCases.BaseClass -TC_RF_007 test passed
+15:46:52.701 INFO  testCases.BaseClass -TC_RF_008 test passed
+15:54:59.929 INFO  testCases.BaseClass -TC_RF_008 test passed
+15:55:01.325 INFO  testCases.BaseClass -TC_RF_008 test passed
+16:24:45.814 INFO  testCases.BaseClass -TC_RF_010 test passed
