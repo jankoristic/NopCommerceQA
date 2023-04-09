@@ -6,7 +6,7 @@
 		<parameter name="browser" value="chrome" />
 		<parameter name="author" value="Janko" />
 		<classes>
-			<class name="testCases.RegisterTest">
+			<class name="testCases.TS_001_Register_Functionality">
 				<methods>
 					<include name="TC_RF_001" />
 				</methods>
@@ -17,7 +17,7 @@
 		<parameter name="browser" value="chrome" />
 		<parameter name="author" value="Janko" />
 		<classes>
-			<class name="testCases.RegisterTest">
+			<class name="testCases.TS_001_Register_Functionality">
 				<methods>
 					<include name="TC_RF_002" />
 				</methods>
@@ -28,7 +28,7 @@
 		<parameter name="browser" value="chrome" />
 		<parameter name="author" value="Janko" />
 		<classes>
-			<class name="testCases.RegisterTest">
+			<class name="testCases.TS_001_Register_Functionality">
 				<methods>
 					<include name="TC_RF_004" />
 				</methods>
@@ -39,7 +39,7 @@
 		<parameter name="browser" value="chrome" />
 		<parameter name="author" value="Janko" />
 		<classes>
-			<class name="testCases.RegisterTest">
+			<class name="testCases.TS_001_Register_Functionality">
 				<methods>
 					<include name="TC_RF_005" />
 				</methods>
@@ -50,7 +50,7 @@
 		<parameter name="browser" value="chrome" />
 		<parameter name="author" value="Janko" />
 		<classes>
-			<class name="testCases.RegisterTest">
+			<class name="testCases.TS_001_Register_Functionality">
 				<methods>
 					<include name="TC_RF_006" />
 				</methods>
@@ -61,7 +61,7 @@
 		<parameter name="browser" value="chrome" />
 		<parameter name="author" value="Janko" />
 		<classes>
-			<class name="testCases.RegisterTest">
+			<class name="testCases.TS_001_Register_Functionality">
 				<methods>
 					<include name="TC_RF_007" />
 				</methods>
@@ -72,7 +72,7 @@
 		<parameter name="browser" value="chrome" />
 		<parameter name="author" value="Janko" />
 		<classes>
-			<class name="testCases.RegisterTest">
+			<class name="testCases.TS_001_Register_Functionality">
 				<methods>
 					<include name="TC_RF_008" />
 				</methods>
@@ -83,7 +83,7 @@
 		<parameter name="browser" value="chrome" />
 		<parameter name="author" value="Janko" />
 		<classes>
-			<class name="testCases.RegisterTest">
+			<class name="testCases.TS_001_Register_Functionality">
 				<methods>
 					<include name="TC_RF_009" />
 				</methods>
@@ -94,7 +94,7 @@
 		<parameter name="browser" value="chrome" />
 		<parameter name="author" value="Janko" />
 		<classes>
-			<class name="testCases.RegisterTest">
+			<class name="testCases.TS_001_Register_Functionality">
 				<methods>
 					<include name="TC_RF_010" />
 				</methods>

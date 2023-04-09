@@ -23,6 +23,12 @@ public WebDriver driver;
 	@FindBy(css=".button-1.login-button")
 	public WebElement loginButton;
 	
+	@FindBy(css="div[class='message-error validation-summary-errors']")
+	public WebElement messageError;
+	
+	@FindBy(id="Email-error")
+	public WebElement emailError;
+	
 	public void enterEmail(String keys) {
 		email.clear();
 		email.sendKeys(keys);

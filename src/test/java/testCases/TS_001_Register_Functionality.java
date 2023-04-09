@@ -11,10 +11,8 @@ import pageObjects.HomePage;
 import pageObjects.RegisterPage;
 import utilities.ReadXLSdata;
 
-public class RegisterTest extends BaseClass {
+public class TS_001_Register_Functionality extends BaseClass {
   
-	
-	
 	@Test(dataProviderClass=ReadXLSdata.class, dataProvider="testdata")
 	public void TC_RF_001(String firstName, String lastName, String email, String password, String confirmPassword) {
 		

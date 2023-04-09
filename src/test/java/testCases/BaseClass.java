@@ -92,6 +92,7 @@ public class BaseClass {
 	@AfterMethod
 	public void check(ITestResult result) {
 		if(result.getStatus() == ITestResult.FAILURE) {
+			log.info(result.getMethod().getMethodName() + " test failed");
 			test.fail(result.getThrowable(), MediaEntityBuilder.createScreenCaptureFromPath(screenshot.captureScreenshot(driver, "screenshot.png")).build());
 			
 		} else if (result.getStatus() == ITestResult.SUCCESS){

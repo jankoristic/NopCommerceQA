@@ -1,21 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="8" total="9" passed="1" failed="0" skipped="0">
+<testng-results ignored="72" total="83" passed="9" failed="2" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-04-08T16:24:39 CEST" name="NopCommerceV1" finished-at="2023-04-08T16:24:46 CEST" duration-ms="6734">
+  <suite started-at="2023-04-08T18:37:30 CEST" name="NopCommerceV1" finished-at="2023-04-08T18:38:21 CEST" duration-ms="51382">
     <groups>
     </groups>
-    <test started-at="2023-04-08T16:24:39 CEST" name="TC_RF_010" finished-at="2023-04-08T16:24:46 CEST" duration-ms="6734">
+    <test started-at="2023-04-08T18:37:30 CEST" name="TC_RF_001" finished-at="2023-04-08T18:37:37 CEST" duration-ms="7599">
       <class name="testCases.RegisterTest">
-        <test-method is-config="true" signature="initialiseExtentreports()[pri:0, instance:testCases.RegisterTest@8519cb4]" started-at="2023-04-08T16:24:38 CEST" name="initialiseExtentreports" finished-at="2023-04-08T16:24:39 CEST" duration-ms="752" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- initialiseExtentreports -->
-        <test-method is-config="true" signature="setup(org.testng.ITestContext,java.lang.String)[pri:0, instance:testCases.RegisterTest@8519cb4]" started-at="2023-04-08T16:24:39 CEST" name="setup" finished-at="2023-04-08T16:24:41 CEST" duration-ms="2155" status="PASS">
+        <test-method is-config="true" signature="setup(org.testng.ITestContext,java.lang.String)[pri:0, instance:testCases.RegisterTest@8519cb4]" started-at="2023-04-08T18:37:30 CEST" name="setup" finished-at="2023-04-08T18:37:33 CEST" duration-ms="3396" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@38054d01]]>
+                <![CDATA[org.testng.TestRunner@f2b4303]]>
               </value>
             </param>
             <param index="1">
@@ -27,7 +23,742 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="TC_RF_010(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.RegisterTest@8519cb4]" started-at="2023-04-08T16:24:42 CEST" name="TC_RF_010" data-provider="testdata" finished-at="2023-04-08T16:24:45 CEST" duration-ms="3684" status="PASS">
+        <test-method signature="TC_RF_001(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.RegisterTest@8519cb4]" started-at="2023-04-08T18:37:34 CEST" name="TC_RF_001" data-provider="testdata" finished-at="2023-04-08T18:37:37 CEST" duration-ms="3034" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Jason]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Bourne]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[jasonb@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[jasonb]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[jasonb]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_RF_001 -->
+        <test-method is-config="true" signature="check(org.testng.ITestResult)[pri:0, instance:testCases.RegisterTest@8519cb4]" started-at="2023-04-08T18:37:37 CEST" name="check" finished-at="2023-04-08T18:37:37 CEST" duration-ms="21" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC_RF_001 status=SUCCESS method=RegisterTest.TC_RF_001(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.RegisterTest@8519cb4] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- check -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.RegisterTest@8519cb4]" started-at="2023-04-08T18:37:37 CEST" name="tearDown" finished-at="2023-04-08T18:37:37 CEST" duration-ms="189" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.RegisterTest -->
+    </test> <!-- TC_RF_001 -->
+    <test started-at="2023-04-08T18:37:37 CEST" name="TC_RF_002" finished-at="2023-04-08T18:37:43 CEST" duration-ms="5872">
+      <class name="testCases.RegisterTest">
+        <test-method is-config="true" signature="setup(org.testng.ITestContext,java.lang.String)[pri:0, instance:testCases.RegisterTest@2b30a42c]" started-at="2023-04-08T18:37:37 CEST" name="setup" finished-at="2023-04-08T18:37:38 CEST" duration-ms="1055" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@23dda7a3]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="TC_RF_002(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.RegisterTest@2b30a42c]" started-at="2023-04-08T18:37:38 CEST" name="TC_RF_002" data-provider="testdata" finished-at="2023-04-08T18:37:43 CEST" duration-ms="4522" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[John]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Smith]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[johns@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[johnsmith]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[johnsmith]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_RF_002 -->
+        <test-method is-config="true" signature="check(org.testng.ITestResult)[pri:0, instance:testCases.RegisterTest@2b30a42c]" started-at="2023-04-08T18:37:43 CEST" name="check" finished-at="2023-04-08T18:37:43 CEST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC_RF_002 status=SUCCESS method=RegisterTest.TC_RF_002(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.RegisterTest@2b30a42c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- check -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.RegisterTest@2b30a42c]" started-at="2023-04-08T18:37:43 CEST" name="tearDown" finished-at="2023-04-08T18:37:43 CEST" duration-ms="188" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.RegisterTest -->
+    </test> <!-- TC_RF_002 -->
+    <test started-at="2023-04-08T18:37:43 CEST" name="TC_RF_004" finished-at="2023-04-08T18:37:48 CEST" duration-ms="5040">
+      <class name="testCases.RegisterTest">
+        <test-method is-config="true" signature="setup(org.testng.ITestContext,java.lang.String)[pri:0, instance:testCases.RegisterTest@792b749c]" started-at="2023-04-08T18:37:43 CEST" name="setup" finished-at="2023-04-08T18:37:44 CEST" duration-ms="1224" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@2d399e88]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="TC_RF_004()[pri:0, instance:testCases.RegisterTest@792b749c]" started-at="2023-04-08T18:37:44 CEST" name="TC_RF_004" finished-at="2023-04-08T18:37:48 CEST" duration-ms="3639" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_RF_004 -->
+        <test-method is-config="true" signature="check(org.testng.ITestResult)[pri:0, instance:testCases.RegisterTest@792b749c]" started-at="2023-04-08T18:37:48 CEST" name="check" finished-at="2023-04-08T18:37:48 CEST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC_RF_004 status=SUCCESS method=RegisterTest.TC_RF_004()[pri:0, instance:testCases.RegisterTest@792b749c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- check -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.RegisterTest@792b749c]" started-at="2023-04-08T18:37:48 CEST" name="tearDown" finished-at="2023-04-08T18:37:48 CEST" duration-ms="173" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.RegisterTest -->
+    </test> <!-- TC_RF_004 -->
+    <test started-at="2023-04-08T18:37:48 CEST" name="TC_RF_005" finished-at="2023-04-08T18:37:52 CEST" duration-ms="3284">
+      <class name="testCases.RegisterTest">
+        <test-method is-config="true" signature="setup(org.testng.ITestContext,java.lang.String)[pri:0, instance:testCases.RegisterTest@305ffe9e]" started-at="2023-04-08T18:37:48 CEST" name="setup" finished-at="2023-04-08T18:37:49 CEST" duration-ms="1170" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@18139a43]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="TC_RF_005(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.RegisterTest@305ffe9e]" started-at="2023-04-08T18:37:49 CEST" name="TC_RF_005" data-provider="testdata" finished-at="2023-04-08T18:37:51 CEST" duration-ms="1820" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Jason]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Bourne]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[jasonb5@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[jasonb]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[jasonb5]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_RF_005 -->
+        <test-method is-config="true" signature="check(org.testng.ITestResult)[pri:0, instance:testCases.RegisterTest@305ffe9e]" started-at="2023-04-08T18:37:51 CEST" name="check" finished-at="2023-04-08T18:37:51 CEST" duration-ms="6" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC_RF_005 status=SUCCESS method=RegisterTest.TC_RF_005(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.RegisterTest@305ffe9e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- check -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.RegisterTest@305ffe9e]" started-at="2023-04-08T18:37:51 CEST" name="tearDown" finished-at="2023-04-08T18:37:52 CEST" duration-ms="189" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.RegisterTest -->
+    </test> <!-- TC_RF_005 -->
+    <test started-at="2023-04-08T18:37:52 CEST" name="TC_RF_006" finished-at="2023-04-08T18:37:55 CEST" duration-ms="3740">
+      <class name="testCases.RegisterTest">
+        <test-method is-config="true" signature="setup(org.testng.ITestContext,java.lang.String)[pri:0, instance:testCases.RegisterTest@61c4eee0]" started-at="2023-04-08T18:37:52 CEST" name="setup" finished-at="2023-04-08T18:37:52 CEST" duration-ms="922" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@4df5f119]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="TC_RF_006(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.RegisterTest@61c4eee0]" started-at="2023-04-08T18:37:53 CEST" name="TC_RF_006" data-provider="testdata" finished-at="2023-04-08T18:37:55 CEST" duration-ms="2525" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Jason]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Bourne]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[jasonb65@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[jasonb]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_RF_006 -->
+        <test-method is-config="true" signature="check(org.testng.ITestResult)[pri:0, instance:testCases.RegisterTest@61c4eee0]" started-at="2023-04-08T18:37:55 CEST" name="check" finished-at="2023-04-08T18:37:55 CEST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC_RF_006 status=SUCCESS method=RegisterTest.TC_RF_006(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.RegisterTest@61c4eee0] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- check -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.RegisterTest@61c4eee0]" started-at="2023-04-08T18:37:55 CEST" name="tearDown" finished-at="2023-04-08T18:37:55 CEST" duration-ms="194" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.RegisterTest -->
+    </test> <!-- TC_RF_006 -->
+    <test started-at="2023-04-08T18:37:55 CEST" name="TC_RF_007" finished-at="2023-04-08T18:38:00 CEST" duration-ms="4458">
+      <class name="testCases.RegisterTest">
+        <test-method is-config="true" signature="setup(org.testng.ITestContext,java.lang.String)[pri:0, instance:testCases.RegisterTest@2a693f59]" started-at="2023-04-08T18:37:55 CEST" name="setup" finished-at="2023-04-08T18:37:57 CEST" duration-ms="1258" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@3dbb7bb]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="TC_RF_007(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.RegisterTest@2a693f59]" started-at="2023-04-08T18:37:57 CEST" name="TC_RF_007" data-provider="testdata" finished-at="2023-04-08T18:38:00 CEST" duration-ms="2914" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Jason]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Bourne]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[jasonb@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[jasonb]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[jasonb]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_RF_007 -->
+        <test-method is-config="true" signature="check(org.testng.ITestResult)[pri:0, instance:testCases.RegisterTest@2a693f59]" started-at="2023-04-08T18:38:00 CEST" name="check" finished-at="2023-04-08T18:38:00 CEST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC_RF_007 status=SUCCESS method=RegisterTest.TC_RF_007(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.RegisterTest@2a693f59] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- check -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.RegisterTest@2a693f59]" started-at="2023-04-08T18:38:00 CEST" name="tearDown" finished-at="2023-04-08T18:38:00 CEST" duration-ms="190" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.RegisterTest -->
+    </test> <!-- TC_RF_007 -->
+    <test started-at="2023-04-08T18:38:00 CEST" name="TC_RF_008" finished-at="2023-04-08T18:38:11 CEST" duration-ms="10937">
+      <class name="testCases.RegisterTest">
+        <test-method is-config="true" signature="setup(org.testng.ITestContext,java.lang.String)[pri:0, instance:testCases.RegisterTest@723ca036]" started-at="2023-04-08T18:38:00 CEST" name="setup" finished-at="2023-04-08T18:38:01 CEST" duration-ms="947" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@6277a496]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="TC_RF_008(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.RegisterTest@723ca036]" started-at="2023-04-08T18:38:01 CEST" name="TC_RF_008" data-provider="testdata" finished-at="2023-04-08T18:38:04 CEST" duration-ms="3331" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Jason]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Bourne]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[jasonb8]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[jasonb]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[jasonb]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_RF_008 -->
+        <test-method is-config="true" signature="check(org.testng.ITestResult)[pri:0, instance:testCases.RegisterTest@723ca036]" started-at="2023-04-08T18:38:04 CEST" name="check" finished-at="2023-04-08T18:38:04 CEST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC_RF_008 status=SUCCESS method=RegisterTest.TC_RF_008(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.RegisterTest@723ca036] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- check -->
+        <test-method signature="TC_RF_008(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.RegisterTest@723ca036]" started-at="2023-04-08T18:38:04 CEST" name="TC_RF_008" data-provider="testdata" finished-at="2023-04-08T18:38:06 CEST" duration-ms="1358" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Jason]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Bourne]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[jasonb8@]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[jasonb]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[jasonb]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_RF_008 -->
+        <test-method is-config="true" signature="check(org.testng.ITestResult)[pri:0, instance:testCases.RegisterTest@723ca036]" started-at="2023-04-08T18:38:06 CEST" name="check" finished-at="2023-04-08T18:38:06 CEST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC_RF_008 status=SUCCESS method=RegisterTest.TC_RF_008(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.RegisterTest@723ca036] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- check -->
+        <test-method signature="TC_RF_008(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.RegisterTest@723ca036]" started-at="2023-04-08T18:38:06 CEST" name="TC_RF_008" data-provider="testdata" finished-at="2023-04-08T18:38:10 CEST" duration-ms="4824" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Jason]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Bourne]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[jasonb8@gmail]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[jasonb]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[jasonb]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"css selector","selector":"#Email\-error"}
+  (Session info: chrome=111.0.5563.147)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.4.0', revision: 'e5c75ed026a'
+System info: host: 'DESKTOP-MQ5QUGD', ip: '192.168.0.23', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [f0f310744d30af703aac2d4ff8952393, findElement {using=id, value=Email-error}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 111.0.5563.147, chrome: {chromedriverVersion: 111.0.5563.64 (c710e93d5b63..., userDataDir: C:\Users\janko\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:54376}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:54376/devtoo..., se:cdpVersion: 111.0.5563.147, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: f0f310744d30af703aac2d4ff8952393]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#Email\-error"}
+  (Session info: chrome=111.0.5563.147)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.4.0', revision: 'e5c75ed026a'
+System info: host: 'DESKTOP-MQ5QUGD', ip: '192.168.0.23', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [f0f310744d30af703aac2d4ff8952393, findElement {using=id, value=Email-error}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 111.0.5563.147, chrome: {chromedriverVersion: 111.0.5563.64 (c710e93d5b63..., userDataDir: C:\Users\janko\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:54376}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:54376/devtoo..., se:cdpVersion: 111.0.5563.147, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: f0f310744d30af703aac2d4ff8952393
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:78)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:547)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:365)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:357)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
+at jdk.proxy2/jdk.proxy2.$Proxy38.isDisplayed(Unknown Source)
+at testCases.RegisterTest.TC_RF_008(RegisterTest.java:150)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:806)
+at org.testng.TestRunner.run(TestRunner.java:601)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:427)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:387)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_RF_008 -->
+        <test-method is-config="true" signature="check(org.testng.ITestResult)[pri:0, instance:testCases.RegisterTest@723ca036]" started-at="2023-04-08T18:38:10 CEST" name="check" finished-at="2023-04-08T18:38:10 CEST" duration-ms="157" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC_RF_008 status=FAILURE method=RegisterTest.TC_RF_008(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.RegisterTest@723ca036] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- check -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.RegisterTest@723ca036]" started-at="2023-04-08T18:38:10 CEST" name="tearDown" finished-at="2023-04-08T18:38:11 CEST" duration-ms="194" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.RegisterTest -->
+    </test> <!-- TC_RF_008 -->
+    <test started-at="2023-04-08T18:38:11 CEST" name="TC_RF_009" finished-at="2023-04-08T18:38:17 CEST" duration-ms="6279">
+      <class name="testCases.RegisterTest">
+        <test-method is-config="true" signature="setup(org.testng.ITestContext,java.lang.String)[pri:0, instance:testCases.RegisterTest@4c163e3]" started-at="2023-04-08T18:38:11 CEST" name="setup" finished-at="2023-04-08T18:38:12 CEST" duration-ms="1088" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@6632eb19]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="TC_RF_009(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.RegisterTest@4c163e3]" started-at="2023-04-08T18:38:12 CEST" name="TC_RF_009" data-provider="testdata" finished-at="2023-04-08T18:38:17 CEST" duration-ms="4779" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[      ]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[       ]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[        ]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[      ]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[      ]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"css selector","selector":"#FirstName\-error"}
+  (Session info: chrome=111.0.5563.147)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.4.0', revision: 'e5c75ed026a'
+System info: host: 'DESKTOP-MQ5QUGD', ip: '192.168.0.23', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [01530f5c9204c704e144bec106428aa3, findElement {using=id, value=FirstName-error}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 111.0.5563.147, chrome: {chromedriverVersion: 111.0.5563.64 (c710e93d5b63..., userDataDir: C:\Users\janko\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:54399}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:54399/devtoo..., se:cdpVersion: 111.0.5563.147, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 01530f5c9204c704e144bec106428aa3]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#FirstName\-error"}
+  (Session info: chrome=111.0.5563.147)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.4.0', revision: 'e5c75ed026a'
+System info: host: 'DESKTOP-MQ5QUGD', ip: '192.168.0.23', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [01530f5c9204c704e144bec106428aa3, findElement {using=id, value=FirstName-error}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 111.0.5563.147, chrome: {chromedriverVersion: 111.0.5563.64 (c710e93d5b63..., userDataDir: C:\Users\janko\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:54399}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:54399/devtoo..., se:cdpVersion: 111.0.5563.147, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 01530f5c9204c704e144bec106428aa3
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:78)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:547)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:365)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:357)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
+at jdk.proxy2/jdk.proxy2.$Proxy38.isDisplayed(Unknown Source)
+at testCases.RegisterTest.TC_RF_009(RegisterTest.java:169)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:806)
+at org.testng.TestRunner.run(TestRunner.java:601)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:427)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:387)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_RF_009 -->
+        <test-method is-config="true" signature="check(org.testng.ITestResult)[pri:0, instance:testCases.RegisterTest@4c163e3]" started-at="2023-04-08T18:38:17 CEST" name="check" finished-at="2023-04-08T18:38:17 CEST" duration-ms="154" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC_RF_009 status=FAILURE method=RegisterTest.TC_RF_009(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.RegisterTest@4c163e3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- check -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.RegisterTest@4c163e3]" started-at="2023-04-08T18:38:17 CEST" name="tearDown" finished-at="2023-04-08T18:38:17 CEST" duration-ms="186" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.RegisterTest -->
+    </test> <!-- TC_RF_009 -->
+    <test started-at="2023-04-08T18:38:17 CEST" name="TC_RF_010" finished-at="2023-04-08T18:38:21 CEST" duration-ms="4071">
+      <class name="testCases.RegisterTest">
+        <test-method is-config="true" signature="initialiseExtentreports()[pri:0, instance:testCases.RegisterTest@536f2a7e]" started-at="2023-04-08T18:37:28 CEST" name="initialiseExtentreports" finished-at="2023-04-08T18:37:30 CEST" duration-ms="1179" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialiseExtentreports -->
+        <test-method is-config="true" signature="setup(org.testng.ITestContext,java.lang.String)[pri:0, instance:testCases.RegisterTest@536f2a7e]" started-at="2023-04-08T18:38:17 CEST" name="setup" finished-at="2023-04-08T18:38:18 CEST" duration-ms="1068" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@42db3ff]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="TC_RF_010(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.RegisterTest@536f2a7e]" started-at="2023-04-08T18:38:18 CEST" name="TC_RF_010" data-provider="testdata" finished-at="2023-04-08T18:38:21 CEST" duration-ms="2756" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -58,22 +789,22 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC_RF_010 -->
-        <test-method is-config="true" signature="check(org.testng.ITestResult)[pri:0, instance:testCases.RegisterTest@8519cb4]" started-at="2023-04-08T16:24:45 CEST" name="check" finished-at="2023-04-08T16:24:45 CEST" duration-ms="13" status="PASS">
+        <test-method is-config="true" signature="check(org.testng.ITestResult)[pri:0, instance:testCases.RegisterTest@536f2a7e]" started-at="2023-04-08T18:38:21 CEST" name="check" finished-at="2023-04-08T18:38:21 CEST" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=TC_RF_010 status=SUCCESS method=RegisterTest.TC_RF_010(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.RegisterTest@8519cb4] output={null}]]]>
+                <![CDATA[[TestResult name=TC_RF_010 status=SUCCESS method=RegisterTest.TC_RF_010(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.RegisterTest@536f2a7e] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- check -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.RegisterTest@8519cb4]" started-at="2023-04-08T16:24:45 CEST" name="tearDown" finished-at="2023-04-08T16:24:46 CEST" duration-ms="197" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.RegisterTest@536f2a7e]" started-at="2023-04-08T18:38:21 CEST" name="tearDown" finished-at="2023-04-08T18:38:21 CEST" duration-ms="164" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="generateExtentReports()[pri:0, instance:testCases.RegisterTest@8519cb4]" started-at="2023-04-08T16:24:46 CEST" name="generateExtentReports" finished-at="2023-04-08T16:24:46 CEST" duration-ms="320" status="PASS">
+        <test-method is-config="true" signature="generateExtentReports()[pri:0, instance:testCases.RegisterTest@536f2a7e]" started-at="2023-04-08T18:38:21 CEST" name="generateExtentReports" finished-at="2023-04-08T18:38:21 CEST" duration-ms="373" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- generateExtentReports -->
