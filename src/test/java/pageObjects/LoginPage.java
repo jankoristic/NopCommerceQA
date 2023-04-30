@@ -29,6 +29,15 @@ public WebDriver driver;
 	@FindBy(id="Email-error")
 	public WebElement emailError;
 	
+	@FindBy(css="a[href='/passwordrecovery']")
+	public WebElement forgotPassword;
+	
+	@FindBy(css="div[class='page password-recovery-page']")
+	public WebElement recoveryPage;
+	
+	@FindBy(css="div[class='bar-notification success']")
+	public WebElement notification;
+	
 	public void enterEmail(String keys) {
 		email.clear();
 		email.sendKeys(keys);
@@ -40,5 +49,9 @@ public WebDriver driver;
 	
 	public void clickLogin() {
 		loginButton.click();
+	}
+	
+	public void clickForgotPassword() {
+		forgotPassword.click();
 	}
 }

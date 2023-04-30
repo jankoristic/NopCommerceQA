@@ -17,8 +17,6 @@ import org.testng.ITestResult;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.AfterSuite;
 import org.testng.annotations.AfterTest;
-import org.testng.annotations.BeforeClass;
-import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Parameters;
@@ -61,19 +59,37 @@ public class BaseClass {
 	@Parameters("browser")
 	@BeforeTest
 	public void setup(ITestContext context, String br) throws Exception {
-		if(br.equals("chrome")) {
+		switch(br.toLowerCase()) {
+		case "chrome":
 			System.setProperty("webdriver.chrome.driver", read.getChromePath());
 			WebDriverManager.chromedriver().setup();
 			options = new ChromeOptions();
 			options.addArguments("--remote-allow-origins=*");
 			driver = new ChromeDriver(options);
-		}
-		
-		if(br.equals("firefox")) {
+			break;
+		case "firefox":
 			WebDriverManager.firefoxdriver().setup();
 			System.setProperty("webdriver.gecko.driver", read.getFirefoxPath());
 			driver = new FirefoxDriver();
+			break;
+		default:
+			System.out.println("Browser name is invalid");
+			break;
 		}
+		
+//		if(br.equals("chrome")) {
+//			System.setProperty("webdriver.chrome.driver", read.getChromePath());
+//			WebDriverManager.chromedriver().setup();
+//			options = new ChromeOptions();
+//			options.addArguments("--remote-allow-origins=*");
+//			driver = new ChromeDriver(options);
+//		}
+//		
+//		if(br.equals("firefox")) {
+//			WebDriverManager.firefoxdriver().setup();
+//			System.setProperty("webdriver.gecko.driver", read.getFirefoxPath());
+//			driver = new FirefoxDriver();
+//		}
 		
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(3));

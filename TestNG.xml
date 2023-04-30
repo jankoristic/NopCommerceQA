@@ -24,6 +24,17 @@
 			</class>
 		</classes>
 	</test>
+	<test name="TC_RF_003">
+		<parameter name="browser" value="chrome" />
+		<parameter name="author" value="Janko" />
+		<classes>
+			<class name="testCases.TS_001_Register_Functionality">
+				<methods>
+					<include name="TC_RF_003" />
+				</methods>
+			</class>
+		</classes>
+	</test>
 	<test name="TC_RF_004">
 		<parameter name="browser" value="chrome" />
 		<parameter name="author" value="Janko" />
@@ -90,13 +101,79 @@
 			</class>
 		</classes>
 	</test>
-	<test name="TC_RF_010">
+	<test name="TC_LF_001">
 		<parameter name="browser" value="chrome" />
 		<parameter name="author" value="Janko" />
 		<classes>
-			<class name="testCases.TS_001_Register_Functionality">
+			<class name="testCases.TS_002_Login_Functionality">
 				<methods>
-					<include name="TC_RF_010" />
+					<include name="TC_LF_001" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="TC_LF_002">
+		<parameter name="browser" value="chrome" />
+		<parameter name="author" value="Janko" />
+		<classes>
+			<class name="testCases.TS_002_Login_Functionality">
+				<methods>
+					<include name="TC_LF_002" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="TC_LF_003">
+		<parameter name="browser" value="chrome" />
+		<parameter name="author" value="Janko" />
+		<classes>
+			<class name="testCases.TS_002_Login_Functionality">
+				<methods>
+					<include name="TC_LF_003" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="TC_LF_004">
+		<parameter name="browser" value="chrome" />
+		<parameter name="author" value="Janko" />
+		<classes>
+			<class name="testCases.TS_002_Login_Functionality">
+				<methods>
+					<include name="TC_LF_004" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="TC_LF_005">
+		<parameter name="browser" value="chrome" />
+		<parameter name="author" value="Janko" />
+		<classes>
+			<class name="testCases.TS_002_Login_Functionality">
+				<methods>
+					<include name="TC_LF_005" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="TC_LF_006">
+		<parameter name="browser" value="chrome" />
+		<parameter name="author" value="Janko" />
+		<classes>
+			<class name="testCases.TS_002_Login_Functionality">
+				<methods>
+					<include name="TC_LF_006" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="TC_LF_007">
+		<parameter name="browser" value="chrome" />
+		<parameter name="author" value="Janko" />
+		<classes>
+			<class name="testCases.TS_002_Login_Functionality">
+				<methods>
+					<include name="TC_LF_007" />
 				</methods>
 			</class>
 		</classes>

@@ -1,10 +1,6 @@
 package testCases;
 
-import static org.testng.Assert.*;
-
 import org.testng.annotations.Test;
-
-import com.aventstack.extentreports.MediaEntityBuilder;
 
 import pageObjects.HomePage;
 import pageObjects.LoginPage;
@@ -12,16 +8,16 @@ import utilities.ReadXLSdata;
 
 public class TS_002_Login_Functionality extends BaseClass {
   
-	@Test(dataProviderClass=ReadXLSdata.class, dataProvider="testdata")
-	public void TC_LF_001(String email, String password) {
+	@Test
+	public void TC_LF_001() {
 		
 		driver.get(read.getURL());
 		HomePage hp = new HomePage(driver);
 		LoginPage lp = new LoginPage(driver);
 		
 		hp.clickLogin();
-		lp.enterEmail(email);
-		lp.enterPassword(password);
+		lp.enterEmail(read.getEmail());
+		lp.enterPassword(read.getPassword());
 		lp.clickLogin();
 		
 		softassert.assertEquals(hp.logout.isDisplayed(), true);
@@ -60,35 +56,66 @@ public class TS_002_Login_Functionality extends BaseClass {
 	  
 	}
 	
-	@Test(dataProviderClass=ReadXLSdata.class, dataProvider="testdata")
-	public void TC_LF_004(String email, String password) {
+	@Test
+	public void TC_LF_004() {
 		
 		driver.get(read.getURL());
 		HomePage hp = new HomePage(driver);
 		LoginPage lp = new LoginPage(driver);
 		
 		hp.clickLogin();
-		lp.enterEmail(email);
-		lp.enterPassword(password);
 		lp.clickLogin();
 		
-		softassert.assertEquals(lp.messageError.isDisplayed(), true);
+		softassert.assertEquals(lp.emailError.isDisplayed(), true);
 	  
 	}
 	
-	@Test(dataProviderClass=ReadXLSdata.class, dataProvider="testdata")
-	public void TC_LF_005(String email, String password) {
+	@Test
+	public void TC_LF_005() {
 		
 		driver.get(read.getURL());
 		HomePage hp = new HomePage(driver);
 		LoginPage lp = new LoginPage(driver);
 		
 		hp.clickLogin();
-		lp.enterEmail(email);
-		lp.enterPassword(password);
-		lp.clickLogin();
+		lp.clickForgotPassword();
 		
-		softassert.assertEquals(lp.messageError.isDisplayed(), true);
+		softassert.assertEquals(lp.recoveryPage.isDisplayed(), true);
+	  
+	}
+	
+	@Test
+	public void TC_LF_006() {
+		
+		driver.get(read.getURL());
+		HomePage hp = new HomePage(driver);
+		LoginPage lp = new LoginPage(driver);
+		
+		hp.clickLogin();
+		lp.enterEmail(read.getEmail());
+		lp.enterPassword(read.getPassword());
+		lp.clickLogin();
+		driver.navigate().back();
+		
+		softassert.assertEquals(lp.notification.isDisplayed(), true);
+	  
+	}
+	
+	@Test
+	public void TC_LF_007() {
+		
+		driver.get(read.getURL());
+		HomePage hp = new HomePage(driver);
+		LoginPage lp = new LoginPage(driver);
+		
+		hp.clickLogin();
+		lp.enterEmail(read.getEmail());
+		lp.enterPassword(read.getPassword());
+		lp.clickLogin();
+		hp.clickLogout();
+		driver.navigate().back();
+		
+		softassert.assertEquals(hp.login.isDisplayed(), true);
 	  
 	}
 }

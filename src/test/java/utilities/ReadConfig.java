@@ -37,5 +37,15 @@ public class ReadConfig {
 		String firefoxPath = properties.getProperty("firefox");
 		return firefoxPath;
 	}
+	
+	public String getEmail() {
+		String email = properties.getProperty("email");
+		return email;
+	}
+	
+	public String getPassword() {
+		String password = properties.getProperty("password");
+		return password;
+	}
 
 }

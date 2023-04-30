@@ -40,6 +40,10 @@ public class HomePage {
 		login.click();
 	}
 	
+	public void clickLogout() {
+		logout.click();
+	}
+	
 	public void clickRegister() {
 		register.click();
 	}

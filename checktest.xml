@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
 
-<suite name="NopCommerceV1">
-	<test name="TC_RF_010">
+<suite name="NopCommerceTestCheck">
+	<test name="TC_RF_006">
 		<parameter name="browser" value="chrome" />
 		<parameter name="author" value="Janko" />
 		<classes>
-			<class name="testCases.RegisterTest">
+			<class name="testCases.TS_001_Register_Functionality">
 				<methods>
-					<include name="TC_RF_010" />
+					<include name="TC_RF_006" />
 				</methods>
 			</class>
 		</classes>
