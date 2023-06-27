@@ -2,16 +2,16 @@
 <testng-results ignored="114" total="132" passed="16" failed="2" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-04-30T19:53:54 CEST" name="NopCommerceV1" finished-at="2023-04-30T19:55:08 CEST" duration-ms="74566">
+  <suite started-at="2023-06-27T22:42:50 CEST" name="NopCommerceV1" finished-at="2023-06-27T22:44:13 CEST" duration-ms="83738">
     <groups>
     </groups>
-    <test started-at="2023-04-30T19:53:54 CEST" name="TC_RF_001" finished-at="2023-04-30T19:54:00 CEST" duration-ms="6719">
+    <test started-at="2023-06-27T22:42:50 CEST" name="TC_RF_001" finished-at="2023-06-27T22:42:58 CEST" duration-ms="8820">
       <class name="testCases.TS_001_Register_Functionality">
-        <test-method is-config="true" signature="setup(org.testng.ITestContext,java.lang.String)[pri:0, instance:testCases.TS_001_Register_Functionality@8519cb4]" started-at="2023-04-30T19:53:54 CEST" name="setup" finished-at="2023-04-30T19:53:56 CEST" duration-ms="2156" status="PASS">
+        <test-method is-config="true" signature="setup(org.testng.ITestContext,java.lang.String)[pri:0, instance:testCases.TS_001_Register_Functionality@8519cb4]" started-at="2023-06-27T22:42:50 CEST" name="setup" finished-at="2023-06-27T22:42:54 CEST" duration-ms="4311" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@53ce27fa]]>
+                <![CDATA[org.testng.TestRunner@6e8426aa]]>
               </value>
             </param>
             <param index="1">
@@ -23,7 +23,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="TC_RF_001(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TS_001_Register_Functionality@8519cb4]" started-at="2023-04-30T19:53:57 CEST" name="TC_RF_001" data-provider="testdata" finished-at="2023-04-30T19:54:00 CEST" duration-ms="3771" status="PASS">
+        <test-method signature="TC_RF_001(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TS_001_Register_Functionality@8519cb4]" started-at="2023-06-27T22:42:55 CEST" name="TC_RF_001" data-provider="testdata" finished-at="2023-06-27T22:42:58 CEST" duration-ms="3528" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -54,7 +54,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC_RF_001 -->
-        <test-method is-config="true" signature="check(org.testng.ITestResult)[pri:0, instance:testCases.TS_001_Register_Functionality@8519cb4]" started-at="2023-04-30T19:54:00 CEST" name="check" finished-at="2023-04-30T19:54:00 CEST" duration-ms="11" status="PASS">
+        <test-method is-config="true" signature="check(org.testng.ITestResult)[pri:0, instance:testCases.TS_001_Register_Functionality@8519cb4]" started-at="2023-06-27T22:42:58 CEST" name="check" finished-at="2023-06-27T22:42:58 CEST" duration-ms="17" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -65,19 +65,19 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- check -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TS_001_Register_Functionality@8519cb4]" started-at="2023-04-30T19:54:00 CEST" name="tearDown" finished-at="2023-04-30T19:54:00 CEST" duration-ms="126" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TS_001_Register_Functionality@8519cb4]" started-at="2023-06-27T22:42:58 CEST" name="tearDown" finished-at="2023-06-27T22:42:58 CEST" duration-ms="188" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- testCases.TS_001_Register_Functionality -->
     </test> <!-- TC_RF_001 -->
-    <test started-at="2023-04-30T19:54:00 CEST" name="TC_RF_002" finished-at="2023-04-30T19:54:07 CEST" duration-ms="6112">
+    <test started-at="2023-06-27T22:42:58 CEST" name="TC_RF_002" finished-at="2023-06-27T22:43:04 CEST" duration-ms="5282">
       <class name="testCases.TS_001_Register_Functionality">
-        <test-method is-config="true" signature="setup(org.testng.ITestContext,java.lang.String)[pri:0, instance:testCases.TS_001_Register_Functionality@2b30a42c]" started-at="2023-04-30T19:54:00 CEST" name="setup" finished-at="2023-04-30T19:54:01 CEST" duration-ms="933" status="PASS">
+        <test-method is-config="true" signature="setup(org.testng.ITestContext,java.lang.String)[pri:0, instance:testCases.TS_001_Register_Functionality@2b30a42c]" started-at="2023-06-27T22:42:58 CEST" name="setup" finished-at="2023-06-27T22:42:59 CEST" duration-ms="1127" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@7ceb7a60]]>
+                <![CDATA[org.testng.TestRunner@752573df]]>
               </value>
             </param>
             <param index="1">
@@ -89,7 +89,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="TC_RF_002(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TS_001_Register_Functionality@2b30a42c]" started-at="2023-04-30T19:54:02 CEST" name="TC_RF_002" data-provider="testdata" finished-at="2023-04-30T19:54:06 CEST" duration-ms="4914" status="PASS">
+        <test-method signature="TC_RF_002(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TS_001_Register_Functionality@2b30a42c]" started-at="2023-06-27T22:43:00 CEST" name="TC_RF_002" data-provider="testdata" finished-at="2023-06-27T22:43:03 CEST" duration-ms="3862" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -120,7 +120,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC_RF_002 -->
-        <test-method is-config="true" signature="check(org.testng.ITestResult)[pri:0, instance:testCases.TS_001_Register_Functionality@2b30a42c]" started-at="2023-04-30T19:54:06 CEST" name="check" finished-at="2023-04-30T19:54:06 CEST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="check(org.testng.ITestResult)[pri:0, instance:testCases.TS_001_Register_Functionality@2b30a42c]" started-at="2023-06-27T22:43:03 CEST" name="check" finished-at="2023-06-27T22:43:03 CEST" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -131,19 +131,19 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- check -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TS_001_Register_Functionality@2b30a42c]" started-at="2023-04-30T19:54:06 CEST" name="tearDown" finished-at="2023-04-30T19:54:07 CEST" duration-ms="155" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TS_001_Register_Functionality@2b30a42c]" started-at="2023-06-27T22:43:03 CEST" name="tearDown" finished-at="2023-06-27T22:43:04 CEST" duration-ms="164" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- testCases.TS_001_Register_Functionality -->
     </test> <!-- TC_RF_002 -->
-    <test started-at="2023-04-30T19:54:07 CEST" name="TC_RF_003" finished-at="2023-04-30T19:54:10 CEST" duration-ms="3138">
+    <test started-at="2023-06-27T22:43:04 CEST" name="TC_RF_003" finished-at="2023-06-27T22:43:07 CEST" duration-ms="3205">
       <class name="testCases.TS_001_Register_Functionality">
-        <test-method is-config="true" signature="setup(org.testng.ITestContext,java.lang.String)[pri:0, instance:testCases.TS_001_Register_Functionality@792b749c]" started-at="2023-04-30T19:54:07 CEST" name="setup" finished-at="2023-04-30T19:54:08 CEST" duration-ms="976" status="PASS">
+        <test-method is-config="true" signature="setup(org.testng.ITestContext,java.lang.String)[pri:0, instance:testCases.TS_001_Register_Functionality@792b749c]" started-at="2023-06-27T22:43:04 CEST" name="setup" finished-at="2023-06-27T22:43:05 CEST" duration-ms="1074" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@1ab780fd]]>
+                <![CDATA[org.testng.TestRunner@6ebf5f26]]>
               </value>
             </param>
             <param index="1">
@@ -155,11 +155,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="TC_RF_003()[pri:0, instance:testCases.TS_001_Register_Functionality@792b749c]" started-at="2023-04-30T19:54:08 CEST" name="TC_RF_003" finished-at="2023-04-30T19:54:10 CEST" duration-ms="2002" status="PASS">
+        <test-method signature="TC_RF_003()[pri:0, instance:testCases.TS_001_Register_Functionality@792b749c]" started-at="2023-06-27T22:43:05 CEST" name="TC_RF_003" finished-at="2023-06-27T22:43:07 CEST" duration-ms="1916" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC_RF_003 -->
-        <test-method is-config="true" signature="check(org.testng.ITestResult)[pri:0, instance:testCases.TS_001_Register_Functionality@792b749c]" started-at="2023-04-30T19:54:10 CEST" name="check" finished-at="2023-04-30T19:54:10 CEST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="check(org.testng.ITestResult)[pri:0, instance:testCases.TS_001_Register_Functionality@792b749c]" started-at="2023-06-27T22:43:07 CEST" name="check" finished-at="2023-06-27T22:43:07 CEST" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -170,19 +170,19 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- check -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TS_001_Register_Functionality@792b749c]" started-at="2023-04-30T19:54:10 CEST" name="tearDown" finished-at="2023-04-30T19:54:10 CEST" duration-ms="156" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TS_001_Register_Functionality@792b749c]" started-at="2023-06-27T22:43:07 CEST" name="tearDown" finished-at="2023-06-27T22:43:07 CEST" duration-ms="210" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- testCases.TS_001_Register_Functionality -->
     </test> <!-- TC_RF_003 -->
-    <test started-at="2023-04-30T19:54:10 CEST" name="TC_RF_004" finished-at="2023-04-30T19:54:13 CEST" duration-ms="3035">
+    <test started-at="2023-06-27T22:43:07 CEST" name="TC_RF_004" finished-at="2023-06-27T22:43:10 CEST" duration-ms="3638">
       <class name="testCases.TS_001_Register_Functionality">
-        <test-method is-config="true" signature="setup(org.testng.ITestContext,java.lang.String)[pri:0, instance:testCases.TS_001_Register_Functionality@305ffe9e]" started-at="2023-04-30T19:54:10 CEST" name="setup" finished-at="2023-04-30T19:54:11 CEST" duration-ms="939" status="PASS">
+        <test-method is-config="true" signature="setup(org.testng.ITestContext,java.lang.String)[pri:0, instance:testCases.TS_001_Register_Functionality@305ffe9e]" started-at="2023-06-27T22:43:07 CEST" name="setup" finished-at="2023-06-27T22:43:08 CEST" duration-ms="1049" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@6b8683b8]]>
+                <![CDATA[org.testng.TestRunner@7a5a26b7]]>
               </value>
             </param>
             <param index="1">
@@ -194,7 +194,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="TC_RF_004(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TS_001_Register_Functionality@305ffe9e]" started-at="2023-04-30T19:54:11 CEST" name="TC_RF_004" data-provider="testdata" finished-at="2023-04-30T19:54:13 CEST" duration-ms="1845" status="PASS">
+        <test-method signature="TC_RF_004(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TS_001_Register_Functionality@305ffe9e]" started-at="2023-06-27T22:43:08 CEST" name="TC_RF_004" data-provider="testdata" finished-at="2023-06-27T22:43:10 CEST" duration-ms="2335" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -225,7 +225,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC_RF_004 -->
-        <test-method is-config="true" signature="check(org.testng.ITestResult)[pri:0, instance:testCases.TS_001_Register_Functionality@305ffe9e]" started-at="2023-04-30T19:54:13 CEST" name="check" finished-at="2023-04-30T19:54:13 CEST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="check(org.testng.ITestResult)[pri:0, instance:testCases.TS_001_Register_Functionality@305ffe9e]" started-at="2023-06-27T22:43:10 CEST" name="check" finished-at="2023-06-27T22:43:10 CEST" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -236,19 +236,19 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- check -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TS_001_Register_Functionality@305ffe9e]" started-at="2023-04-30T19:54:13 CEST" name="tearDown" finished-at="2023-04-30T19:54:13 CEST" duration-ms="184" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TS_001_Register_Functionality@305ffe9e]" started-at="2023-06-27T22:43:10 CEST" name="tearDown" finished-at="2023-06-27T22:43:10 CEST" duration-ms="183" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- testCases.TS_001_Register_Functionality -->
     </test> <!-- TC_RF_004 -->
-    <test started-at="2023-04-30T19:54:13 CEST" name="TC_RF_005" finished-at="2023-04-30T19:54:18 CEST" duration-ms="5025">
+    <test started-at="2023-06-27T22:43:11 CEST" name="TC_RF_005" finished-at="2023-06-27T22:43:14 CEST" duration-ms="3653">
       <class name="testCases.TS_001_Register_Functionality">
-        <test-method is-config="true" signature="setup(org.testng.ITestContext,java.lang.String)[pri:0, instance:testCases.TS_001_Register_Functionality@61c4eee0]" started-at="2023-04-30T19:54:13 CEST" name="setup" finished-at="2023-04-30T19:54:14 CEST" duration-ms="956" status="PASS">
+        <test-method is-config="true" signature="setup(org.testng.ITestContext,java.lang.String)[pri:0, instance:testCases.TS_001_Register_Functionality@61c4eee0]" started-at="2023-06-27T22:43:11 CEST" name="setup" finished-at="2023-06-27T22:43:12 CEST" duration-ms="1085" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@495598c5]]>
+                <![CDATA[org.testng.TestRunner@3524ee20]]>
               </value>
             </param>
             <param index="1">
@@ -260,7 +260,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="TC_RF_005(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TS_001_Register_Functionality@61c4eee0]" started-at="2023-04-30T19:54:14 CEST" name="TC_RF_005" data-provider="testdata" finished-at="2023-04-30T19:54:18 CEST" duration-ms="3821" status="PASS">
+        <test-method signature="TC_RF_005(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TS_001_Register_Functionality@61c4eee0]" started-at="2023-06-27T22:43:12 CEST" name="TC_RF_005" data-provider="testdata" finished-at="2023-06-27T22:43:14 CEST" duration-ms="2301" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -291,7 +291,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC_RF_005 -->
-        <test-method is-config="true" signature="check(org.testng.ITestResult)[pri:0, instance:testCases.TS_001_Register_Functionality@61c4eee0]" started-at="2023-04-30T19:54:18 CEST" name="check" finished-at="2023-04-30T19:54:18 CEST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="check(org.testng.ITestResult)[pri:0, instance:testCases.TS_001_Register_Functionality@61c4eee0]" started-at="2023-06-27T22:43:14 CEST" name="check" finished-at="2023-06-27T22:43:14 CEST" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -302,19 +302,19 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- check -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TS_001_Register_Functionality@61c4eee0]" started-at="2023-04-30T19:54:18 CEST" name="tearDown" finished-at="2023-04-30T19:54:18 CEST" duration-ms="181" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TS_001_Register_Functionality@61c4eee0]" started-at="2023-06-27T22:43:14 CEST" name="tearDown" finished-at="2023-06-27T22:43:14 CEST" duration-ms="186" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- testCases.TS_001_Register_Functionality -->
     </test> <!-- TC_RF_005 -->
-    <test started-at="2023-04-30T19:54:18 CEST" name="TC_RF_006" finished-at="2023-04-30T19:54:22 CEST" duration-ms="4085">
+    <test started-at="2023-06-27T22:43:14 CEST" name="TC_RF_006" finished-at="2023-06-27T22:43:18 CEST" duration-ms="3381">
       <class name="testCases.TS_001_Register_Functionality">
-        <test-method is-config="true" signature="setup(org.testng.ITestContext,java.lang.String)[pri:0, instance:testCases.TS_001_Register_Functionality@2a693f59]" started-at="2023-04-30T19:54:18 CEST" name="setup" finished-at="2023-04-30T19:54:19 CEST" duration-ms="1016" status="PASS">
+        <test-method is-config="true" signature="setup(org.testng.ITestContext,java.lang.String)[pri:0, instance:testCases.TS_001_Register_Functionality@2a693f59]" started-at="2023-06-27T22:43:14 CEST" name="setup" finished-at="2023-06-27T22:43:15 CEST" duration-ms="985" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@6e4ac3f5]]>
+                <![CDATA[org.testng.TestRunner@6bc1c8d0]]>
               </value>
             </param>
             <param index="1">
@@ -326,7 +326,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="TC_RF_006(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TS_001_Register_Functionality@2a693f59]" started-at="2023-04-30T19:54:19 CEST" name="TC_RF_006" data-provider="testdata" finished-at="2023-04-30T19:54:22 CEST" duration-ms="2813" status="PASS">
+        <test-method signature="TC_RF_006(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TS_001_Register_Functionality@2a693f59]" started-at="2023-06-27T22:43:15 CEST" name="TC_RF_006" data-provider="testdata" finished-at="2023-06-27T22:43:17 CEST" duration-ms="2133" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -357,7 +357,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC_RF_006 -->
-        <test-method is-config="true" signature="check(org.testng.ITestResult)[pri:0, instance:testCases.TS_001_Register_Functionality@2a693f59]" started-at="2023-04-30T19:54:22 CEST" name="check" finished-at="2023-04-30T19:54:22 CEST" duration-ms="3" status="PASS">
+        <test-method is-config="true" signature="check(org.testng.ITestResult)[pri:0, instance:testCases.TS_001_Register_Functionality@2a693f59]" started-at="2023-06-27T22:43:17 CEST" name="check" finished-at="2023-06-27T22:43:17 CEST" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -368,19 +368,19 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- check -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TS_001_Register_Functionality@2a693f59]" started-at="2023-04-30T19:54:22 CEST" name="tearDown" finished-at="2023-04-30T19:54:22 CEST" duration-ms="182" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TS_001_Register_Functionality@2a693f59]" started-at="2023-06-27T22:43:17 CEST" name="tearDown" finished-at="2023-06-27T22:43:18 CEST" duration-ms="192" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- testCases.TS_001_Register_Functionality -->
     </test> <!-- TC_RF_006 -->
-    <test started-at="2023-04-30T19:54:22 CEST" name="TC_RF_007" finished-at="2023-04-30T19:54:31 CEST" duration-ms="9084">
+    <test started-at="2023-06-27T22:43:18 CEST" name="TC_RF_007" finished-at="2023-06-27T22:43:34 CEST" duration-ms="16284">
       <class name="testCases.TS_001_Register_Functionality">
-        <test-method is-config="true" signature="setup(org.testng.ITestContext,java.lang.String)[pri:0, instance:testCases.TS_001_Register_Functionality@723ca036]" started-at="2023-04-30T19:54:22 CEST" name="setup" finished-at="2023-04-30T19:54:23 CEST" duration-ms="977" status="PASS">
+        <test-method is-config="true" signature="setup(org.testng.ITestContext,java.lang.String)[pri:0, instance:testCases.TS_001_Register_Functionality@723ca036]" started-at="2023-06-27T22:43:18 CEST" name="setup" finished-at="2023-06-27T22:43:19 CEST" duration-ms="1036" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@48dc06a9]]>
+                <![CDATA[org.testng.TestRunner@7f93fce1]]>
               </value>
             </param>
             <param index="1">
@@ -392,7 +392,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="TC_RF_007(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TS_001_Register_Functionality@723ca036]" started-at="2023-04-30T19:54:23 CEST" name="TC_RF_007" data-provider="testdata" finished-at="2023-04-30T19:54:25 CEST" duration-ms="1721" status="PASS">
+        <test-method signature="TC_RF_007(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TS_001_Register_Functionality@723ca036]" started-at="2023-06-27T22:43:19 CEST" name="TC_RF_007" data-provider="testdata" finished-at="2023-06-27T22:43:20 CEST" duration-ms="1811" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -423,7 +423,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC_RF_007 -->
-        <test-method is-config="true" signature="check(org.testng.ITestResult)[pri:0, instance:testCases.TS_001_Register_Functionality@723ca036]" started-at="2023-04-30T19:54:25 CEST" name="check" finished-at="2023-04-30T19:54:25 CEST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="check(org.testng.ITestResult)[pri:0, instance:testCases.TS_001_Register_Functionality@723ca036]" started-at="2023-06-27T22:43:20 CEST" name="check" finished-at="2023-06-27T22:43:20 CEST" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -434,7 +434,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- check -->
-        <test-method signature="TC_RF_007(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TS_001_Register_Functionality@723ca036]" started-at="2023-04-30T19:54:25 CEST" name="TC_RF_007" data-provider="testdata" finished-at="2023-04-30T19:54:26 CEST" duration-ms="1339" status="PASS">
+        <test-method signature="TC_RF_007(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TS_001_Register_Functionality@723ca036]" started-at="2023-06-27T22:43:20 CEST" name="TC_RF_007" data-provider="testdata" finished-at="2023-06-27T22:43:22 CEST" duration-ms="1348" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -465,7 +465,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC_RF_007 -->
-        <test-method is-config="true" signature="check(org.testng.ITestResult)[pri:0, instance:testCases.TS_001_Register_Functionality@723ca036]" started-at="2023-04-30T19:54:26 CEST" name="check" finished-at="2023-04-30T19:54:26 CEST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="check(org.testng.ITestResult)[pri:0, instance:testCases.TS_001_Register_Functionality@723ca036]" started-at="2023-06-27T22:43:22 CEST" name="check" finished-at="2023-06-27T22:43:22 CEST" duration-ms="2" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -476,7 +476,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- check -->
-        <test-method signature="TC_RF_007(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TS_001_Register_Functionality@723ca036]" started-at="2023-04-30T19:54:26 CEST" name="TC_RF_007" data-provider="testdata" finished-at="2023-04-30T19:54:31 CEST" duration-ms="4652" status="FAIL">
+        <test-method signature="TC_RF_007(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TS_001_Register_Functionality@723ca036]" started-at="2023-06-27T22:43:22 CEST" name="TC_RF_007" data-provider="testdata" finished-at="2023-06-27T22:43:33 CEST" duration-ms="11672" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -507,25 +507,25 @@
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
               <![CDATA[no such element: Unable to locate element: {"method":"css selector","selector":"#Email\-error"}
-  (Session info: chrome=112.0.5615.138)
+  (Session info: chrome=114.0.5735.134)
 For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
 Build info: version: '4.4.0', revision: 'e5c75ed026a'
 System info: host: 'DESKTOP-MQ5QUGD', ip: '192.168.0.23', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.2'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [a2aabf346fdc4702429f981692b89d24, findElement {using=id, value=Email-error}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 112.0.5615.138, chrome: {chromedriverVersion: 112.0.5615.49 (bd2a7bcb881c..., userDataDir: C:\Users\janko\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:61651}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:61651/devtoo..., se:cdpVersion: 112.0.5615.138, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: a2aabf346fdc4702429f981692b89d24]]>
+Command: [021b2a5540798e8dc4912b8bb4e491f1, findElement {using=id, value=Email-error}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.134, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\janko\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:52892}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:52892/devtoo..., se:cdpVersion: 114.0.5735.134, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 021b2a5540798e8dc4912b8bb4e491f1]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#Email\-error"}
-  (Session info: chrome=112.0.5615.138)
+  (Session info: chrome=114.0.5735.134)
 For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
 Build info: version: '4.4.0', revision: 'e5c75ed026a'
 System info: host: 'DESKTOP-MQ5QUGD', ip: '192.168.0.23', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.2'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [a2aabf346fdc4702429f981692b89d24, findElement {using=id, value=Email-error}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 112.0.5615.138, chrome: {chromedriverVersion: 112.0.5615.49 (bd2a7bcb881c..., userDataDir: C:\Users\janko\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:61651}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:61651/devtoo..., se:cdpVersion: 112.0.5615.138, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: a2aabf346fdc4702429f981692b89d24
+Command: [021b2a5540798e8dc4912b8bb4e491f1, findElement {using=id, value=Email-error}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.134, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\janko\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:52892}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:52892/devtoo..., se:cdpVersion: 114.0.5735.134, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 021b2a5540798e8dc4912b8bb4e491f1
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:78)
 at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -580,7 +580,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC_RF_007 -->
-        <test-method is-config="true" signature="check(org.testng.ITestResult)[pri:0, instance:testCases.TS_001_Register_Functionality@723ca036]" started-at="2023-04-30T19:54:31 CEST" name="check" finished-at="2023-04-30T19:54:31 CEST" duration-ms="166" status="PASS">
+        <test-method is-config="true" signature="check(org.testng.ITestResult)[pri:0, instance:testCases.TS_001_Register_Functionality@723ca036]" started-at="2023-06-27T22:43:34 CEST" name="check" finished-at="2023-06-27T22:43:34 CEST" duration-ms="149" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -591,19 +591,19 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- check -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TS_001_Register_Functionality@723ca036]" started-at="2023-04-30T19:54:31 CEST" name="tearDown" finished-at="2023-04-30T19:54:31 CEST" duration-ms="167" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TS_001_Register_Functionality@723ca036]" started-at="2023-06-27T22:43:34 CEST" name="tearDown" finished-at="2023-06-27T22:43:34 CEST" duration-ms="181" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- testCases.TS_001_Register_Functionality -->
     </test> <!-- TC_RF_007 -->
-    <test started-at="2023-04-30T19:54:31 CEST" name="TC_RF_008" finished-at="2023-04-30T19:54:38 CEST" duration-ms="6794">
+    <test started-at="2023-06-27T22:43:34 CEST" name="TC_RF_008" finished-at="2023-06-27T22:43:47 CEST" duration-ms="13161">
       <class name="testCases.TS_001_Register_Functionality">
-        <test-method is-config="true" signature="setup(org.testng.ITestContext,java.lang.String)[pri:0, instance:testCases.TS_001_Register_Functionality@4c163e3]" started-at="2023-04-30T19:54:31 CEST" name="setup" finished-at="2023-04-30T19:54:32 CEST" duration-ms="941" status="PASS">
+        <test-method is-config="true" signature="setup(org.testng.ITestContext,java.lang.String)[pri:0, instance:testCases.TS_001_Register_Functionality@4c163e3]" started-at="2023-06-27T22:43:34 CEST" name="setup" finished-at="2023-06-27T22:43:35 CEST" duration-ms="923" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@1798c749]]>
+                <![CDATA[org.testng.TestRunner@5457123a]]>
               </value>
             </param>
             <param index="1">
@@ -615,7 +615,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="TC_RF_008(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TS_001_Register_Functionality@4c163e3]" started-at="2023-04-30T19:54:32 CEST" name="TC_RF_008" data-provider="testdata" finished-at="2023-04-30T19:54:37 CEST" duration-ms="5442" status="FAIL">
+        <test-method signature="TC_RF_008(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TS_001_Register_Functionality@4c163e3]" started-at="2023-06-27T22:43:35 CEST" name="TC_RF_008" data-provider="testdata" finished-at="2023-06-27T22:43:47 CEST" duration-ms="11841" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -646,25 +646,25 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
               <![CDATA[no such element: Unable to locate element: {"method":"css selector","selector":"#FirstName\-error"}
-  (Session info: chrome=112.0.5615.138)
+  (Session info: chrome=114.0.5735.134)
 For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
 Build info: version: '4.4.0', revision: 'e5c75ed026a'
 System info: host: 'DESKTOP-MQ5QUGD', ip: '192.168.0.23', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.2'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [ee614fb26a1ea48eede978963dbbce62, findElement {using=id, value=FirstName-error}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 112.0.5615.138, chrome: {chromedriverVersion: 112.0.5615.49 (bd2a7bcb881c..., userDataDir: C:\Users\janko\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:61676}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:61676/devtoo..., se:cdpVersion: 112.0.5615.138, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: ee614fb26a1ea48eede978963dbbce62]]>
+Command: [25f97dcebd8575a2bc20cc6484f3b4e4, findElement {using=id, value=FirstName-error}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.134, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\janko\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:52915}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:52915/devtoo..., se:cdpVersion: 114.0.5735.134, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 25f97dcebd8575a2bc20cc6484f3b4e4]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#FirstName\-error"}
-  (Session info: chrome=112.0.5615.138)
+  (Session info: chrome=114.0.5735.134)
 For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
 Build info: version: '4.4.0', revision: 'e5c75ed026a'
 System info: host: 'DESKTOP-MQ5QUGD', ip: '192.168.0.23', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.2'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [ee614fb26a1ea48eede978963dbbce62, findElement {using=id, value=FirstName-error}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 112.0.5615.138, chrome: {chromedriverVersion: 112.0.5615.49 (bd2a7bcb881c..., userDataDir: C:\Users\janko\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:61676}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:61676/devtoo..., se:cdpVersion: 112.0.5615.138, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: ee614fb26a1ea48eede978963dbbce62
+Command: [25f97dcebd8575a2bc20cc6484f3b4e4, findElement {using=id, value=FirstName-error}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.134, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\janko\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:52915}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:52915/devtoo..., se:cdpVersion: 114.0.5735.134, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 25f97dcebd8575a2bc20cc6484f3b4e4
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:78)
 at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -719,7 +719,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC_RF_008 -->
-        <test-method is-config="true" signature="check(org.testng.ITestResult)[pri:0, instance:testCases.TS_001_Register_Functionality@4c163e3]" started-at="2023-04-30T19:54:37 CEST" name="check" finished-at="2023-04-30T19:54:38 CEST" duration-ms="174" status="PASS">
+        <test-method is-config="true" signature="check(org.testng.ITestResult)[pri:0, instance:testCases.TS_001_Register_Functionality@4c163e3]" started-at="2023-06-27T22:43:47 CEST" name="check" finished-at="2023-06-27T22:43:47 CEST" duration-ms="127" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -730,19 +730,19 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- check -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TS_001_Register_Functionality@4c163e3]" started-at="2023-04-30T19:54:38 CEST" name="tearDown" finished-at="2023-04-30T19:54:38 CEST" duration-ms="180" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TS_001_Register_Functionality@4c163e3]" started-at="2023-06-27T22:43:47 CEST" name="tearDown" finished-at="2023-06-27T22:43:47 CEST" duration-ms="181" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- testCases.TS_001_Register_Functionality -->
     </test> <!-- TC_RF_008 -->
-    <test started-at="2023-04-30T19:54:38 CEST" name="TC_RF_009" finished-at="2023-04-30T19:54:41 CEST" duration-ms="2867">
+    <test started-at="2023-06-27T22:43:47 CEST" name="TC_RF_009" finished-at="2023-06-27T22:43:51 CEST" duration-ms="3585">
       <class name="testCases.TS_001_Register_Functionality">
-        <test-method is-config="true" signature="setup(org.testng.ITestContext,java.lang.String)[pri:0, instance:testCases.TS_001_Register_Functionality@536f2a7e]" started-at="2023-04-30T19:54:38 CEST" name="setup" finished-at="2023-04-30T19:54:39 CEST" duration-ms="881" status="PASS">
+        <test-method is-config="true" signature="setup(org.testng.ITestContext,java.lang.String)[pri:0, instance:testCases.TS_001_Register_Functionality@536f2a7e]" started-at="2023-06-27T22:43:47 CEST" name="setup" finished-at="2023-06-27T22:43:48 CEST" duration-ms="1047" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@726ee6cf]]>
+                <![CDATA[org.testng.TestRunner@4690a37e]]>
               </value>
             </param>
             <param index="1">
@@ -754,7 +754,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="TC_RF_009(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TS_001_Register_Functionality@536f2a7e]" started-at="2023-04-30T19:54:39 CEST" name="TC_RF_009" data-provider="testdata" finished-at="2023-04-30T19:54:41 CEST" duration-ms="1727" status="PASS">
+        <test-method signature="TC_RF_009(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TS_001_Register_Functionality@536f2a7e]" started-at="2023-06-27T22:43:48 CEST" name="TC_RF_009" data-provider="testdata" finished-at="2023-06-27T22:43:50 CEST" duration-ms="2256" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -785,11 +785,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC_RF_009 -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TS_001_Register_Functionality@536f2a7e]" started-at="2023-04-30T19:54:41 CEST" name="tearDown" finished-at="2023-04-30T19:54:41 CEST" duration-ms="181" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="check(org.testng.ITestResult)[pri:0, instance:testCases.TS_001_Register_Functionality@536f2a7e]" started-at="2023-04-30T19:54:41 CEST" name="check" finished-at="2023-04-30T19:54:41 CEST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="check(org.testng.ITestResult)[pri:0, instance:testCases.TS_001_Register_Functionality@536f2a7e]" started-at="2023-06-27T22:43:50 CEST" name="check" finished-at="2023-06-27T22:43:50 CEST" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -800,15 +796,19 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- check -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TS_001_Register_Functionality@536f2a7e]" started-at="2023-06-27T22:43:50 CEST" name="tearDown" finished-at="2023-06-27T22:43:51 CEST" duration-ms="199" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
       </class> <!-- testCases.TS_001_Register_Functionality -->
     </test> <!-- TC_RF_009 -->
-    <test started-at="2023-04-30T19:54:41 CEST" name="TC_LF_001" finished-at="2023-04-30T19:54:44 CEST" duration-ms="3091">
+    <test started-at="2023-06-27T22:43:51 CEST" name="TC_LF_001" finished-at="2023-06-27T22:43:54 CEST" duration-ms="3118">
       <class name="testCases.TS_002_Login_Functionality">
-        <test-method is-config="true" signature="setup(org.testng.ITestContext,java.lang.String)[pri:0, instance:testCases.TS_002_Login_Functionality@5c80cf32]" started-at="2023-04-30T19:54:41 CEST" name="setup" finished-at="2023-04-30T19:54:42 CEST" duration-ms="896" status="PASS">
+        <test-method is-config="true" signature="setup(org.testng.ITestContext,java.lang.String)[pri:0, instance:testCases.TS_002_Login_Functionality@5c80cf32]" started-at="2023-06-27T22:43:51 CEST" name="setup" finished-at="2023-06-27T22:43:51 CEST" duration-ms="876" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@4a83d61c]]>
+                <![CDATA[org.testng.TestRunner@23f27434]]>
               </value>
             </param>
             <param index="1">
@@ -820,11 +820,11 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="TC_LF_001()[pri:0, instance:testCases.TS_002_Login_Functionality@5c80cf32]" started-at="2023-04-30T19:54:42 CEST" name="TC_LF_001" finished-at="2023-04-30T19:54:44 CEST" duration-ms="2016" status="PASS">
+        <test-method signature="TC_LF_001()[pri:0, instance:testCases.TS_002_Login_Functionality@5c80cf32]" started-at="2023-06-27T22:43:51 CEST" name="TC_LF_001" finished-at="2023-06-27T22:43:54 CEST" duration-ms="2054" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC_LF_001 -->
-        <test-method is-config="true" signature="check(org.testng.ITestResult)[pri:0, instance:testCases.TS_002_Login_Functionality@5c80cf32]" started-at="2023-04-30T19:54:44 CEST" name="check" finished-at="2023-04-30T19:54:44 CEST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="check(org.testng.ITestResult)[pri:0, instance:testCases.TS_002_Login_Functionality@5c80cf32]" started-at="2023-06-27T22:43:54 CEST" name="check" finished-at="2023-06-27T22:43:54 CEST" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -835,19 +835,19 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- check -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TS_002_Login_Functionality@5c80cf32]" started-at="2023-04-30T19:54:44 CEST" name="tearDown" finished-at="2023-04-30T19:54:44 CEST" duration-ms="178" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TS_002_Login_Functionality@5c80cf32]" started-at="2023-06-27T22:43:54 CEST" name="tearDown" finished-at="2023-06-27T22:43:54 CEST" duration-ms="183" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- testCases.TS_002_Login_Functionality -->
     </test> <!-- TC_LF_001 -->
-    <test started-at="2023-04-30T19:54:44 CEST" name="TC_LF_002" finished-at="2023-04-30T19:54:48 CEST" duration-ms="4160">
+    <test started-at="2023-06-27T22:43:54 CEST" name="TC_LF_002" finished-at="2023-06-27T22:43:57 CEST" duration-ms="3195">
       <class name="testCases.TS_002_Login_Functionality">
-        <test-method is-config="true" signature="setup(org.testng.ITestContext,java.lang.String)[pri:0, instance:testCases.TS_002_Login_Functionality@673fdbce]" started-at="2023-04-30T19:54:44 CEST" name="setup" finished-at="2023-04-30T19:54:45 CEST" duration-ms="958" status="PASS">
+        <test-method is-config="true" signature="setup(org.testng.ITestContext,java.lang.String)[pri:0, instance:testCases.TS_002_Login_Functionality@673fdbce]" started-at="2023-06-27T22:43:54 CEST" name="setup" finished-at="2023-06-27T22:43:55 CEST" duration-ms="1145" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@624268ab]]>
+                <![CDATA[org.testng.TestRunner@43e6f05f]]>
               </value>
             </param>
             <param index="1">
@@ -859,7 +859,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="TC_LF_002(java.lang.String,java.lang.String)[pri:0, instance:testCases.TS_002_Login_Functionality@673fdbce]" started-at="2023-04-30T19:54:45 CEST" name="TC_LF_002" data-provider="testdata" finished-at="2023-04-30T19:54:48 CEST" duration-ms="3009" status="PASS">
+        <test-method signature="TC_LF_002(java.lang.String,java.lang.String)[pri:0, instance:testCases.TS_002_Login_Functionality@673fdbce]" started-at="2023-06-27T22:43:55 CEST" name="TC_LF_002" data-provider="testdata" finished-at="2023-06-27T22:43:57 CEST" duration-ms="1791" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -875,7 +875,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC_LF_002 -->
-        <test-method is-config="true" signature="check(org.testng.ITestResult)[pri:0, instance:testCases.TS_002_Login_Functionality@673fdbce]" started-at="2023-04-30T19:54:48 CEST" name="check" finished-at="2023-04-30T19:54:48 CEST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="check(org.testng.ITestResult)[pri:0, instance:testCases.TS_002_Login_Functionality@673fdbce]" started-at="2023-06-27T22:43:57 CEST" name="check" finished-at="2023-06-27T22:43:57 CEST" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -886,19 +886,19 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- check -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TS_002_Login_Functionality@673fdbce]" started-at="2023-04-30T19:54:48 CEST" name="tearDown" finished-at="2023-04-30T19:54:48 CEST" duration-ms="145" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TS_002_Login_Functionality@673fdbce]" started-at="2023-06-27T22:43:57 CEST" name="tearDown" finished-at="2023-06-27T22:43:57 CEST" duration-ms="185" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- testCases.TS_002_Login_Functionality -->
     </test> <!-- TC_LF_002 -->
-    <test started-at="2023-04-30T19:54:48 CEST" name="TC_LF_003" finished-at="2023-04-30T19:54:52 CEST" duration-ms="4447">
+    <test started-at="2023-06-27T22:43:57 CEST" name="TC_LF_003" finished-at="2023-06-27T22:44:00 CEST" duration-ms="3063">
       <class name="testCases.TS_002_Login_Functionality">
-        <test-method is-config="true" signature="setup(org.testng.ITestContext,java.lang.String)[pri:0, instance:testCases.TS_002_Login_Functionality@6cb107fd]" started-at="2023-04-30T19:54:48 CEST" name="setup" finished-at="2023-04-30T19:54:49 CEST" duration-ms="983" status="PASS">
+        <test-method is-config="true" signature="setup(org.testng.ITestContext,java.lang.String)[pri:0, instance:testCases.TS_002_Login_Functionality@6cb107fd]" started-at="2023-06-27T22:43:57 CEST" name="setup" finished-at="2023-06-27T22:43:58 CEST" duration-ms="1010" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@33315925]]>
+                <![CDATA[org.testng.TestRunner@2fccfcdb]]>
               </value>
             </param>
             <param index="1">
@@ -910,7 +910,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="TC_LF_003(java.lang.String,java.lang.String)[pri:0, instance:testCases.TS_002_Login_Functionality@6cb107fd]" started-at="2023-04-30T19:54:49 CEST" name="TC_LF_003" data-provider="testdata" finished-at="2023-04-30T19:54:52 CEST" duration-ms="3248" status="PASS">
+        <test-method signature="TC_LF_003(java.lang.String,java.lang.String)[pri:0, instance:testCases.TS_002_Login_Functionality@6cb107fd]" started-at="2023-06-27T22:43:58 CEST" name="TC_LF_003" data-provider="testdata" finished-at="2023-06-27T22:44:00 CEST" duration-ms="1827" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -926,7 +926,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC_LF_003 -->
-        <test-method is-config="true" signature="check(org.testng.ITestResult)[pri:0, instance:testCases.TS_002_Login_Functionality@6cb107fd]" started-at="2023-04-30T19:54:52 CEST" name="check" finished-at="2023-04-30T19:54:52 CEST" duration-ms="6" status="PASS">
+        <test-method is-config="true" signature="check(org.testng.ITestResult)[pri:0, instance:testCases.TS_002_Login_Functionality@6cb107fd]" started-at="2023-06-27T22:44:00 CEST" name="check" finished-at="2023-06-27T22:44:00 CEST" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -937,19 +937,19 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- check -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TS_002_Login_Functionality@6cb107fd]" started-at="2023-04-30T19:54:52 CEST" name="tearDown" finished-at="2023-04-30T19:54:52 CEST" duration-ms="169" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TS_002_Login_Functionality@6cb107fd]" started-at="2023-06-27T22:44:00 CEST" name="tearDown" finished-at="2023-06-27T22:44:00 CEST" duration-ms="184" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- testCases.TS_002_Login_Functionality -->
     </test> <!-- TC_LF_003 -->
-    <test started-at="2023-04-30T19:54:52 CEST" name="TC_LF_004" finished-at="2023-04-30T19:54:56 CEST" duration-ms="3637">
+    <test started-at="2023-06-27T22:44:00 CEST" name="TC_LF_004" finished-at="2023-06-27T22:44:03 CEST" duration-ms="2541">
       <class name="testCases.TS_002_Login_Functionality">
-        <test-method is-config="true" signature="setup(org.testng.ITestContext,java.lang.String)[pri:0, instance:testCases.TS_002_Login_Functionality@eadd4fb]" started-at="2023-04-30T19:54:52 CEST" name="setup" finished-at="2023-04-30T19:54:53 CEST" duration-ms="861" status="PASS">
+        <test-method is-config="true" signature="setup(org.testng.ITestContext,java.lang.String)[pri:0, instance:testCases.TS_002_Login_Functionality@eadd4fb]" started-at="2023-06-27T22:44:00 CEST" name="setup" finished-at="2023-06-27T22:44:01 CEST" duration-ms="1096" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@366c9912]]>
+                <![CDATA[org.testng.TestRunner@6c04310f]]>
               </value>
             </param>
             <param index="1">
@@ -961,11 +961,11 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="TC_LF_004()[pri:0, instance:testCases.TS_002_Login_Functionality@eadd4fb]" started-at="2023-04-30T19:54:53 CEST" name="TC_LF_004" finished-at="2023-04-30T19:54:56 CEST" duration-ms="2603" status="PASS">
+        <test-method signature="TC_LF_004()[pri:0, instance:testCases.TS_002_Login_Functionality@eadd4fb]" started-at="2023-06-27T22:44:01 CEST" name="TC_LF_004" finished-at="2023-06-27T22:44:02 CEST" duration-ms="1250" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC_LF_004 -->
-        <test-method is-config="true" signature="check(org.testng.ITestResult)[pri:0, instance:testCases.TS_002_Login_Functionality@eadd4fb]" started-at="2023-04-30T19:54:56 CEST" name="check" finished-at="2023-04-30T19:54:56 CEST" duration-ms="2" status="PASS">
+        <test-method is-config="true" signature="check(org.testng.ITestResult)[pri:0, instance:testCases.TS_002_Login_Functionality@eadd4fb]" started-at="2023-06-27T22:44:02 CEST" name="check" finished-at="2023-06-27T22:44:02 CEST" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -976,19 +976,19 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- check -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TS_002_Login_Functionality@eadd4fb]" started-at="2023-04-30T19:54:56 CEST" name="tearDown" finished-at="2023-04-30T19:54:56 CEST" duration-ms="168" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TS_002_Login_Functionality@eadd4fb]" started-at="2023-06-27T22:44:02 CEST" name="tearDown" finished-at="2023-06-27T22:44:03 CEST" duration-ms="192" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- testCases.TS_002_Login_Functionality -->
     </test> <!-- TC_LF_004 -->
-    <test started-at="2023-04-30T19:54:56 CEST" name="TC_LF_005" finished-at="2023-04-30T19:55:00 CEST" duration-ms="4427">
+    <test started-at="2023-06-27T22:44:03 CEST" name="TC_LF_005" finished-at="2023-06-27T22:44:05 CEST" duration-ms="2732">
       <class name="testCases.TS_002_Login_Functionality">
-        <test-method is-config="true" signature="setup(org.testng.ITestContext,java.lang.String)[pri:0, instance:testCases.TS_002_Login_Functionality@2a8448fa]" started-at="2023-04-30T19:54:56 CEST" name="setup" finished-at="2023-04-30T19:54:57 CEST" duration-ms="973" status="PASS">
+        <test-method is-config="true" signature="setup(org.testng.ITestContext,java.lang.String)[pri:0, instance:testCases.TS_002_Login_Functionality@2a8448fa]" started-at="2023-06-27T22:44:03 CEST" name="setup" finished-at="2023-06-27T22:44:04 CEST" duration-ms="1038" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@628b9af5]]>
+                <![CDATA[org.testng.TestRunner@5ce7ab6f]]>
               </value>
             </param>
             <param index="1">
@@ -1000,11 +1000,11 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="TC_LF_005()[pri:0, instance:testCases.TS_002_Login_Functionality@2a8448fa]" started-at="2023-04-30T19:54:57 CEST" name="TC_LF_005" finished-at="2023-04-30T19:55:00 CEST" duration-ms="3328" status="PASS">
+        <test-method signature="TC_LF_005()[pri:0, instance:testCases.TS_002_Login_Functionality@2a8448fa]" started-at="2023-06-27T22:44:04 CEST" name="TC_LF_005" finished-at="2023-06-27T22:44:05 CEST" duration-ms="1512" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC_LF_005 -->
-        <test-method is-config="true" signature="check(org.testng.ITestResult)[pri:0, instance:testCases.TS_002_Login_Functionality@2a8448fa]" started-at="2023-04-30T19:55:00 CEST" name="check" finished-at="2023-04-30T19:55:00 CEST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="check(org.testng.ITestResult)[pri:0, instance:testCases.TS_002_Login_Functionality@2a8448fa]" started-at="2023-06-27T22:44:05 CEST" name="check" finished-at="2023-06-27T22:44:05 CEST" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1015,19 +1015,19 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- check -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TS_002_Login_Functionality@2a8448fa]" started-at="2023-04-30T19:55:00 CEST" name="tearDown" finished-at="2023-04-30T19:55:00 CEST" duration-ms="123" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TS_002_Login_Functionality@2a8448fa]" started-at="2023-06-27T22:44:05 CEST" name="tearDown" finished-at="2023-06-27T22:44:05 CEST" duration-ms="176" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- testCases.TS_002_Login_Functionality -->
     </test> <!-- TC_LF_005 -->
-    <test started-at="2023-04-30T19:55:00 CEST" name="TC_LF_006" finished-at="2023-04-30T19:55:04 CEST" duration-ms="3552">
+    <test started-at="2023-06-27T22:44:05 CEST" name="TC_LF_006" finished-at="2023-06-27T22:44:09 CEST" duration-ms="3692">
       <class name="testCases.TS_002_Login_Functionality">
-        <test-method is-config="true" signature="setup(org.testng.ITestContext,java.lang.String)[pri:0, instance:testCases.TS_002_Login_Functionality@3ad83a66]" started-at="2023-04-30T19:55:00 CEST" name="setup" finished-at="2023-04-30T19:55:01 CEST" duration-ms="883" status="PASS">
+        <test-method is-config="true" signature="setup(org.testng.ITestContext,java.lang.String)[pri:0, instance:testCases.TS_002_Login_Functionality@3ad83a66]" started-at="2023-06-27T22:44:05 CEST" name="setup" finished-at="2023-06-27T22:44:06 CEST" duration-ms="1107" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@137db13f]]>
+                <![CDATA[org.testng.TestRunner@28f7cca4]]>
               </value>
             </param>
             <param index="1">
@@ -1039,11 +1039,11 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="TC_LF_006()[pri:0, instance:testCases.TS_002_Login_Functionality@3ad83a66]" started-at="2023-04-30T19:55:01 CEST" name="TC_LF_006" finished-at="2023-04-30T19:55:04 CEST" duration-ms="2547" status="PASS">
+        <test-method signature="TC_LF_006()[pri:0, instance:testCases.TS_002_Login_Functionality@3ad83a66]" started-at="2023-06-27T22:44:06 CEST" name="TC_LF_006" finished-at="2023-06-27T22:44:09 CEST" duration-ms="2403" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC_LF_006 -->
-        <test-method is-config="true" signature="check(org.testng.ITestResult)[pri:0, instance:testCases.TS_002_Login_Functionality@3ad83a66]" started-at="2023-04-30T19:55:04 CEST" name="check" finished-at="2023-04-30T19:55:04 CEST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="check(org.testng.ITestResult)[pri:0, instance:testCases.TS_002_Login_Functionality@3ad83a66]" started-at="2023-06-27T22:44:09 CEST" name="check" finished-at="2023-06-27T22:44:09 CEST" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1054,23 +1054,23 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- check -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TS_002_Login_Functionality@3ad83a66]" started-at="2023-04-30T19:55:04 CEST" name="tearDown" finished-at="2023-04-30T19:55:04 CEST" duration-ms="120" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TS_002_Login_Functionality@3ad83a66]" started-at="2023-06-27T22:44:09 CEST" name="tearDown" finished-at="2023-06-27T22:44:09 CEST" duration-ms="179" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- testCases.TS_002_Login_Functionality -->
     </test> <!-- TC_LF_006 -->
-    <test started-at="2023-04-30T19:55:04 CEST" name="TC_LF_007" finished-at="2023-04-30T19:55:08 CEST" duration-ms="4290">
+    <test started-at="2023-06-27T22:44:09 CEST" name="TC_LF_007" finished-at="2023-06-27T22:44:13 CEST" duration-ms="4282">
       <class name="testCases.TS_002_Login_Functionality">
-        <test-method is-config="true" signature="initialiseExtentreports()[pri:0, instance:testCases.TS_002_Login_Functionality@5b38c1ec]" started-at="2023-04-30T19:53:53 CEST" name="initialiseExtentreports" finished-at="2023-04-30T19:53:54 CEST" duration-ms="770" status="PASS">
+        <test-method is-config="true" signature="initialiseExtentreports()[pri:0, instance:testCases.TS_002_Login_Functionality@5b38c1ec]" started-at="2023-06-27T22:42:48 CEST" name="initialiseExtentreports" finished-at="2023-06-27T22:42:50 CEST" duration-ms="1063" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initialiseExtentreports -->
-        <test-method is-config="true" signature="setup(org.testng.ITestContext,java.lang.String)[pri:0, instance:testCases.TS_002_Login_Functionality@5b38c1ec]" started-at="2023-04-30T19:55:04 CEST" name="setup" finished-at="2023-04-30T19:55:05 CEST" duration-ms="1026" status="PASS">
+        <test-method is-config="true" signature="setup(org.testng.ITestContext,java.lang.String)[pri:0, instance:testCases.TS_002_Login_Functionality@5b38c1ec]" started-at="2023-06-27T22:44:09 CEST" name="setup" finished-at="2023-06-27T22:44:10 CEST" duration-ms="1061" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@2a3c3a04]]>
+                <![CDATA[org.testng.TestRunner@6015c745]]>
               </value>
             </param>
             <param index="1">
@@ -1082,11 +1082,11 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="TC_LF_007()[pri:0, instance:testCases.TS_002_Login_Functionality@5b38c1ec]" started-at="2023-04-30T19:55:05 CEST" name="TC_LF_007" finished-at="2023-04-30T19:55:08 CEST" duration-ms="3110" status="PASS">
+        <test-method signature="TC_LF_007()[pri:0, instance:testCases.TS_002_Login_Functionality@5b38c1ec]" started-at="2023-06-27T22:44:10 CEST" name="TC_LF_007" finished-at="2023-06-27T22:44:13 CEST" duration-ms="3031" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC_LF_007 -->
-        <test-method is-config="true" signature="check(org.testng.ITestResult)[pri:0, instance:testCases.TS_002_Login_Functionality@5b38c1ec]" started-at="2023-04-30T19:55:08 CEST" name="check" finished-at="2023-04-30T19:55:08 CEST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="check(org.testng.ITestResult)[pri:0, instance:testCases.TS_002_Login_Functionality@5b38c1ec]" started-at="2023-06-27T22:44:13 CEST" name="check" finished-at="2023-06-27T22:44:13 CEST" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1097,11 +1097,11 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- check -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TS_002_Login_Functionality@5b38c1ec]" started-at="2023-04-30T19:55:08 CEST" name="tearDown" finished-at="2023-04-30T19:55:08 CEST" duration-ms="152" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TS_002_Login_Functionality@5b38c1ec]" started-at="2023-06-27T22:44:13 CEST" name="tearDown" finished-at="2023-06-27T22:44:13 CEST" duration-ms="187" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="generateExtentReports()[pri:0, instance:testCases.TS_002_Login_Functionality@5b38c1ec]" started-at="2023-04-30T19:55:08 CEST" name="generateExtentReports" finished-at="2023-04-30T19:55:09 CEST" duration-ms="381" status="PASS">
+        <test-method is-config="true" signature="generateExtentReports()[pri:0, instance:testCases.TS_002_Login_Functionality@5b38c1ec]" started-at="2023-06-27T22:44:13 CEST" name="generateExtentReports" finished-at="2023-06-27T22:44:14 CEST" duration-ms="356" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- generateExtentReports -->

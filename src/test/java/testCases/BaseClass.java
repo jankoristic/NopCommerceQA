@@ -61,7 +61,6 @@ public class BaseClass {
 	public void setup(ITestContext context, String br) throws Exception {
 		switch(br.toLowerCase()) {
 		case "chrome":
-			System.setProperty("webdriver.chrome.driver", read.getChromePath());
 			WebDriverManager.chromedriver().setup();
 			options = new ChromeOptions();
 			options.addArguments("--remote-allow-origins=*");
@@ -69,7 +68,6 @@ public class BaseClass {
 			break;
 		case "firefox":
 			WebDriverManager.firefoxdriver().setup();
-			System.setProperty("webdriver.gecko.driver", read.getFirefoxPath());
 			driver = new FirefoxDriver();
 			break;
 		default:
@@ -77,23 +75,9 @@ public class BaseClass {
 			break;
 		}
 		
-//		if(br.equals("chrome")) {
-//			System.setProperty("webdriver.chrome.driver", read.getChromePath());
-//			WebDriverManager.chromedriver().setup();
-//			options = new ChromeOptions();
-//			options.addArguments("--remote-allow-origins=*");
-//			driver = new ChromeDriver(options);
-//		}
-//		
-//		if(br.equals("firefox")) {
-//			WebDriverManager.firefoxdriver().setup();
-//			System.setProperty("webdriver.gecko.driver", read.getFirefoxPath());
-//			driver = new FirefoxDriver();
-//		}
-		
 		driver.manage().window().maximize();
-		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(3));
-		driver.manage().timeouts().pageLoadTimeout(Duration.ofSeconds(3));
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
+		driver.manage().timeouts().pageLoadTimeout(Duration.ofSeconds(10));
 		
 		Capabilities capabilities = ((RemoteWebDriver) driver).getCapabilities();
 		String device = capabilities.getBrowserName() + " " + capabilities.getBrowserVersion().substring(0, capabilities.getBrowserVersion().indexOf("."));
